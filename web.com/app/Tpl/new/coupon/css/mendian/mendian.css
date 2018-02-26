@@ -1,0 +1,660 @@
+.mt15{margin-top: 15px;}
+.mt30{margin-top: 30px;}
+.mr0{margin-right: 0!important;}
+.br0{border-right: none!important;}
+.wrap{width: 1200px;*width:1220px;margin: 0 auto;overflow: visible;}
+.clear{clear:both;height: 0;overflow: visible;}
+.con{ width: 100%;}
+
+.section-single{
+    background: #fbfbfb;
+}
+.section-double{
+    background: #fff;
+}
+.tit{
+    padding-top: 60px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 42px;
+    color: #333;
+    text-align: center;
+}
+.tit em{
+    color: #fb6165;
+    font-weight: bold;
+}
+.summary{
+    width: 100%;
+    margin-top: 13px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+.special{
+    width: 100%;
+    height: 514px;
+    background: url("../../images/mendian/special-bg.jpg") 0 0 no-repeat;
+}
+.special .tit{
+    color: #fff;
+}
+.special .summary{
+    color: #fff;
+    filter:alpha(opacity=30);
+    -moz-opacity:.7;
+    opacity: .7;
+}
+.banner{
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+.banner:hover a.prev{
+    filter:alpha(opacity=.3);
+    -moz-opacity:.3;
+    opacity: .3;
+}
+.banner:hover a.next{
+    filter:alpha(opacity=.3);
+    -moz-opacity:.3;
+    opacity: .3;
+}
+.banner .banner-bg{
+    display: block;
+    width: 100%;
+    height: 430px;
+}
+.banner .banner-2{background: url("../../images/mendian/banner-2.jpg") center center no-repeat;}
+.banner .banner-3{background: url("../../images/mendian/banner-3.jpg") center center no-repeat;}
+.banner .banner-4{background: url("../../images/mendian/banner-4.jpg") center center no-repeat;}
+
+.swiper-container{
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.swiper-wrapper{
+    position: relative;
+    transition-property: transform, left, top;
+    transition-duration: 0s;
+    transform: translate3d(0px,0,0);
+    transition-timing-function: ease;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.banner a.prev, a.next {
+    position: absolute;
+    top: 50%;
+    margin-top: -67px;
+    z-index: 99;
+    text-align: center;
+    width: 52px;
+    height: 134px;
+    line-height: 134px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 50px;
+    background-color: #000;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: opacity .75s;
+    -moz-transition: opacity .75s;
+    -o-transition: opacity .75s;
+    transition: opacity .75s;
+
+}
+.banner a.prev { left: 30px;}
+.banner a.prev:hover {
+    filter:alpha(opacity=70);
+    -moz-opacity:.7;
+    opacity: .7;
+}
+.banner a.next { right: 30px;}
+.banner a.next:hover {
+    filter:alpha(opacity=40);
+    -moz-opacity:.4;
+    opacity: .4;
+}
+.swiper-slide{
+    float: left;
+    display: block;
+}
+.what{
+    padding-bottom: 60px;
+    margin: 60px auto 0;
+    width: 756px;
+    height: 494px;
+    background: url("../../images/mendian/mendian.png") 0 0 no-repeat;
+}
+.solve-problem{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: -20px;
+}
+.solve-problem .problem-block{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 590px;
+    height: 130px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fff;
+}
+.solve-problem .left{
+    width: 264px;
+    height: 130px;
+    line-height: 130px;
+    background: url("../../images/mendian/problem-bg.png") 0 0 no-repeat;
+    background-size: 100%;
+}
+.solve-problem .left span{
+    float: left;
+    margin-left: 20px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.solve-problem .left .problem-img{
+    float: left;
+    margin-top: 45px;
+    margin-left: 48px;
+    display: block;
+    width:40px;
+    height: 40px;
+    overflow: hidden;
+    background: url("../../images/mendian/problem-list.png") no-repeat;
+}
+.solve-problem .left .img-1{background-position: 0 0;}
+.solve-problem .left .img-2{background-position: -43px 0;}
+.solve-problem .left .img-3{background-position: -87px 0;}
+.solve-problem .left .img-4{background-position: -130px 0;}
+.solve-problem .right{
+    float: left;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.solve-problem .right .mt-10{ margin-top: -15px;}
+.solve-problem .right p{
+    color: #444;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.more-style{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.more-style ul{
+    width: 1200px;
+    *width:1206px;
+    height: 659px;
+    overflow: hidden;
+}
+.more-style li{
+    float: left;
+    width: 200px;
+    height: 220px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+}
+.more-style li:nth-child(6n){
+    border-right: none;
+}
+.more-style a{
+    padding-top: 47px;
+    width: 100%;
+    height: 173px;
+    text-align: center;
+    display: block;
+}
+.more-style a:hover{
+    -webkit-transition: background .35s;
+    -moz-transition: background .35s;
+    -o-transition: background .35s;
+    transition: background .35s;
+    background: #f4f4f5;
+}
+.more-style .style-img{
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    background: url("../../images/mendian/more-style-list.png") no-repeat;
+}
+.more-style p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #111;
+    font-weight: bold;
+}
+.more-style span{
+    line-height: 130px;
+    font-size: 16px;
+    color: #fb617d;
+    font-weight: bold;
+}
+.more-style .style-img.img-1{ background-position: 0 0;}
+.more-style .style-img.img-2{ background-position: -90px 0;}
+.more-style .style-img.img-3{ background-position: -180px 0;}
+.more-style .style-img.img-4{ background-position: -270px 0;}
+.more-style .style-img.img-5{ background-position: -360px 0;}
+.more-style .style-img.img-6{ background-position: -450px 0;}
+.more-style .style-img.img-7{ background-position: -540px 0;}
+.more-style .style-img.img-8{ background-position: -630px 0;}
+.more-style .style-img.img-9{ background-position: -720px 0;}
+.more-style .style-img.img-10{ background-position: -810px 0;}
+.more-style .style-img.img-11{ background-position: -900px 0;}
+.more-style .style-img.img-12{ background-position: -990px 0;}
+.more-style .style-img.img-13{ background-position: -1080px 0;}
+.more-style .style-img.img-14{ background-position: -1170px 0;}
+.more-style .style-img.img-15{ background-position: -1260px 0;}
+.more-style .style-img.img-16{ background-position: -1350px 0;}
+.more-style .style-img.img-17{ background-position: -1440px 0;}
+.select-bar{
+    padding: 60px 0;
+}
+.select-bar .select-tit{
+    margin: 0 auto;
+    width: 803px;
+    height: 52px;
+    border: 1px solid #ddd;
+    border-radius: 26px;
+    overflow: hidden;
+}
+.select-bar .select-tit a{
+    float: left;
+    display: block;
+    width: 133px;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    color: #555;
+    border-right: 1px solid #ddd;
+}
+.select-bar .select-tit .selected{
+    background: #fb6165;
+    color: #fff;
+}
+.select-bar .select-inner{
+    padding-top: 30px;
+}
+.select-bar .select-con{
+    margin-right: -20px;
+}
+.select-bar .select-block{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+    width: 282px;
+    height: 300px;
+    background: #fff;
+    border:1px solid #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.select-bar .select-block:hover{
+    border:1px solid #fb6165;
+}
+.select-bar .select-list{
+    width: 90px;
+    height: 150px;
+    margin: 50px auto 0;
+    background: url("../../images/mendian/select-list.png") no-repeat;
+}
+.select-bar span{
+    display: block;
+    position: relative;
+    top: -40px;
+    width: 100%;
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.select-bar p{
+    display: block;
+    margin: -5px auto 0;
+    width: 200px;
+    color: #111;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.select-bar .img-1{ background-position: 0 0;}
+.select-bar .img-2{ background-position: -90px 0;}
+.select-bar .img-3{ background-position: -180px 0;}
+.select-bar .img-4{ background-position: -270px 0;}
+.select-bar .img-5{ background-position: -360px 0;}
+.select-bar .img-6{ background-position: -450px 0;}
+.select-bar .img-7{ background-position: -540px 0;}
+.select-bar .img-8{ background-position: -630px 0;}
+.select-bar .img-9{ background-position: -720px 0;}
+.select-bar .img-10{ background-position: -810px 0;}
+.select-bar .img-11{ background-position: -900px 0;}
+.select-bar .img-12{ background-position: -990px 0;}
+.select-bar .img-13{ background-position: -1080px 0;}
+.select-bar .img-14{ background-position: -1170px 0;}
+.select-bar .img-15{ background-position: -1260px 0;}
+.select-bar .img-16{ background-position: -1350px 0;}
+.select-bar .img-17{ background-position: -1440px 0;}
+.select-bar .img-18{ background-position: -1530px 0;}
+.select-bar .img-19{ background-position: -1620px 0;}
+.select-bar .img-20{ background-position: -1710px 0;}
+.select-bar .img-21{ background-position: -1800px 0;}
+.select-bar .img-22{ background-position: -1890px 0;}
+.select-bar .img-23{ background-position: -1980px 0;}
+.select-bar .img-24{ background-position: -2070px 0;}
+.select-bar .img-25{ background-position: -2160px 0;}
+.select-bar .img-26{ background-position: -2250px 0;}
+.select-bar .img-27{ background-position: -2340px 0;}
+.select-bar .img-28{ background-position: -2430px 0;}
+.select-bar .img-29{ background-position: -2520px 0;}
+.select-bar .img-30{ background-position: -2610px 0;}
+.select-bar .img-31{ background-position: -2700px 0;}
+.select-bar .img-32{ background-position: -2790px 0;}
+.select-bar .img-33{ background-position: -2880px 0;}
+.select-bar .img-34{ background-position: -2970px 0;}
+.select-bar .img-35{ background-position: -3060px 0;}
+.select-bar .img-36{ background-position: -3150px 0;}
+.select-bar .img-37{ background-position: -3240px 0;}
+.select-bar .img-38{ background-position: -3330px 0;}
+.select-bar .img-39{ background-position: -3420px 0;}
+.pay{
+    margin-right:-20px;
+    padding: 60px 0;
+    text-align: center;
+}
+.pay .pay-block{
+    margin-right: 20px;
+    float: left;
+    width: 285px;
+    height: 420px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: url("../../images/mendian/pay-bg.jpg") no-repeat;
+}
+.pay .pay-bg-1{background-position: 0 0;}
+.pay .pay-bg-2{background-position: -285px 0;}
+.pay .pay-bg-3{background-position: -570px 0;}
+.pay .pay-bg-4{background-position: -855px 0;}
+.pay .pay-list{
+    margin: 50px auto;
+    width: 99px;
+    height: 99px;
+    overflow: hidden;
+    background: url("../../images/mendian/pay-list.png") no-repeat;
+}
+.pay .pay-list.img-1{background-position: 0 0;}
+.pay .pay-list.img-2{background-position: -99px 0;}
+.pay .pay-list.img-3{background-position: -198px 0;}
+.pay .pay-list.img-4{background-position: -297px 0;}
+.pay span{
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.pay .bar{
+    margin: 20px auto;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+}
+.pay p{
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+}
+.brand{
+    width: 1221px;
+    padding: 60px 0;
+    margin-right: -21px;
+    text-align: center;
+}
+.brand .brand-block{
+    float: left;
+    margin-right: 21px;
+    width: 386px;
+    height: 227px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.brand .brand-list{
+    margin: 30px auto;
+    width: 60px;
+    height: 45px;
+    background: url("../../images/mendian/brand-list.png") no-repeat;
+    overflow: hidden;
+}
+.brand .brand-list.img-1{background-position: 0 0;}
+.brand .brand-list.img-2{background-position: -60px 0;}
+.brand .brand-list.img-3{background-position: -120px 0;}
+.brand span{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #111;
+}
+.brand .bar{
+    margin: 20px auto;
+    width: 20px;
+    height: 2px;
+    background: #ff5b5d;
+}
+.brand p{
+    margin: 0 auto;
+    display: block;
+    width: 270px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111;
+}
+.plan{
+    padding:60px 0;
+}
+.plan ul{
+    width: 1200px;
+    *width:1206px;
+    height: 579px;
+    overflow: hidden;
+}
+.plan li{
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+}
+.plan li:nth-child(4n){
+    border-right: none;
+}
+.plan a{
+    padding-top: 40px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+.plan a:hover{
+    -webkit-transition: background .35s;
+    -moz-transition: background .35s;
+    -o-transition: background .35s;
+    transition: background .35s;
+    background: #f7f7f7;
+}
+.plan .plan-list{
+    margin: 0 auto;
+    width: 135px;
+    height: 173px;
+    background: url("../../images/mendian/plan-list.png") no-repeat;
+}
+.plan p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #111;
+    font-weight: bold;
+}
+.plan span{
+    line-height: 250px;
+    font-size: 16px;
+    color: #111;
+    font-weight: bold;
+}
+.plan .img-1{ background-position: 0 0;}
+.plan .img-2{ background-position: -134px 0;}
+.plan .img-3{ background-position: -268px 0;}
+.plan .img-4{ background-position: -402px 0;}
+.plan .img-5{ background-position: -536px 0;}
+.plan .img-6{ background-position: -670px 0;}
+.plan .img-7{ background-position: -804px 0;}
+
+.case{
+    padding:60px 0;
+    margin-right: -20px;
+}
+.case .case-block{
+    margin-right: 20px;
+    float: left;
+    width: 386px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fff;
+}
+.case .case-img{
+    width: 100%;
+    height: 150px;
+    background: url("../../images/mendian/case-list.png") no-repeat;
+}
+.case .img-1{background-position: 0 0;}
+.case .img-2{background-position: -386px 0;}
+.case .img-3{background-position: -772px 0;}
+.case .case-detail{
+    padding: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #111;
+    text-align: center;
+}
+.case .click-go{
+    margin: 60px auto 0;
+    display: block;
+    width: 302px;
+    height: 70px;
+    background: #fb6165;
+    color: #fff;
+    line-height:70px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.case .click-go:hover{
+    background: #d6565a;
+    -webkit-transition: background .35s;
+    -moz-transition: background .35s;
+    -o-transition: background .35s;
+    transition: background .35s;
+}
+
+
+/*----底部消息块----*/
+.news{
+    width:1290px;
+    margin: 0 auto;
+    height:460px;
+    padding-top: 20px;
+}
+.news .news-list{
+    float: left;
+    margin: 0 15px;
+    width:400px;
+}
+.news .news-tit{
+    line-height: 80px;
+    font-size:24px;
+    color:#1b1b1b;
+    position: relative;
+}
+.news .news-tit .more{
+    font-size:14px;
+    display: block;
+    color:#666;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right:10px ;
+}
+.news .news-tit .more:hover{
+    color:#2db0f5;
+}
+.news .news-tit .more .right-arrow{
+    width:7px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background:url("../../images/o2o/index/right-arrow.png") no-repeat right 35px;
+}
+.news .first-news{
+    display: block;
+    border:1px solid #cde1e4;
+}
+.news .news-img{
+    height:170px;
+    overflow: hidden;
+}
+.news .news-img img{
+    width:100%;
+}
+.news .first-news-tit{
+    padding:0 15px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    height:58px;
+    line-height: 58px;
+    color:#333;
+    font-size:14px;
+}
+.news .first-news:hover .first-news-tit{
+    color:#2db0f5;
+}
+.news ul{
+    margin-top: 10px;
+}
+.news li a{
+    line-height: 34px;
+    font-size:14px;
+    color:#333;
+    display: block;
+    height:34px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.news li a:hover{
+    color:#2db0f5;
+}
+.news li a span{
+    color:#999;
+}

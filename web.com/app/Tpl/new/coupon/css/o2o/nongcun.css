@@ -1,0 +1,370 @@
+.banner{
+	height: 530px;
+	background: url("../../images/o2o/nongcun/banner.jpg") no-repeat center top;
+}
+/* hot-mode */
+.hot-mode{
+	background:#f5f5f5;
+	height:705px;
+}
+.hot-mode-list{
+	width:1200px;
+	padding-top: 20px;
+	margin:0 auto;
+}
+.hot-mode-list li{
+	width:352px;
+	height:346px;
+	float: left;
+	border:1px solid #e1e1e1;
+	border-bottom-width:2px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-1{
+	border-bottom-color:#ff5400;
+}
+.hot-mode-list .hot-item-2{
+	border-bottom-color:#004c32;
+	margin: 0 69px;
+}
+.hot-mode-list .hot-item-3{
+	border-bottom-color:#295182;
+}
+.hot-mode-list .hot-item-img{
+	padding-top: 50px;
+	height:104px;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-img img{
+	height:100%;
+	display: block;
+	margin: 0 auto;
+}
+.hot-mode-list .hot-item-tit{
+	margin-top: 30px;
+	font-weight:bold;
+	color:#262626;
+	line-height: 60px;
+	font-size:19px;
+}
+.hot-mode-list .hot-item-tip{
+	color:#7e7e7e;
+	line-height: 24px;
+	font-size:15px;
+}
+/* nc-hot */
+.nc-hot{
+	height:1000px;
+}
+.nc-hot-list{
+	width: 1260px;
+	margin: 0 auto;
+}
+.nc-hot-list li{
+	float: left;
+	width: 326px;
+	margin: 0 47px 40px;
+	text-align: center;
+	height: 330px;
+	padding-top: 14px;
+	color:#fff;
+	border-radius: 3px;
+}
+.nc-hot-list .nc-item-1{
+	background: #2eb0f5;
+}
+.nc-hot-list .nc-item-2{
+	background: #fdbc26;
+}
+.nc-hot-list .nc-item-3{
+	background: #22e6bf;
+}
+.nc-hot-list .nc-item-4{
+	background: #ff7b7b;
+}
+.nc-hot-list .nc-item-5{
+	background: #88abda;
+}
+.nc-hot-list .nc-item-6{
+	background: #ae5da1;
+}
+.nc-hot-list .nc-ico{
+	height: 120px;
+	background-image: url("../../images/o2o/nongcun/nc-ico.png");
+	background-repeat:no-repeat;
+}
+.nc-hot-list li:hover .nc-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.nc-ico-2{
+	background-position:-326px 0;
+}
+.nc-ico-3{
+	background-position:-652px 0;
+}
+.nc-ico-4{
+	background-position:-978px 0;
+}
+.nc-ico-5{
+	background-position:-1304px 0;
+}
+.nc-ico-6{
+	background-position:-1630px 0;
+}
+.nc-tit{
+	font-size:20px;
+	line-height: 38px;
+	margin-bottom: 18px;
+}
+.nc-tip{
+	font-size:16px;
+	line-height: 28px;
+}
+#nc-btn{
+	display: block;
+	margin: 50px auto 0;
+	color:#fff;
+	border:1px solid #fff;
+	line-height: 38px;
+	width:120px;
+	border-radius:19px;
+}
+/* field */
+.field{
+	background:#f5f5f5;
+	height:800px;
+}
+.field-list{
+	width:1212px;
+	margin: 30px auto;
+}
+.field-list li{
+	width:88px;
+	margin: 0 56px;
+	height:154px;
+	float: left;
+	text-align: center;
+	background-image:url("../../images/o2o/nongcun/field-bg.png");
+	background-repeat:no-repeat;
+}
+.field-list .field-item-2{
+	background-position:-88px 0;
+}
+.field-list .field-item-3{
+	background-position:-176px 0;
+}
+.field-list .field-item-4{
+	background-position:-264px 0;
+}
+.field-list .field-item-5{
+	background-position:-352px 0;
+}
+.field-list .field-item-6{
+	background-position:-440px 0;
+}
+.field-list .field-item-7{
+	background-position:-528px 0;
+}
+.field-list .field-item-8{
+	background-position:-616px 0;
+}
+.field-list .field-item-9{
+	background-position:-704px 0;
+}
+.field-list .field-item-10{
+	background-position:-792px 0;
+}
+.field-list .field-item-11{
+	background-position:-880px 0;
+}
+.field-list .field-item-12{
+	background-position:-968px 0;
+}
+.field-list .field-item-13{
+	background-position:-1056px 0;
+}
+.field-list .field-item-14{
+	background-position:-1144px 0;
+}
+.field-list .field-item-15{
+	background-position:-1232px 0;
+}
+.field-list .field-item-16{
+	background-position:-1320px 0;
+}
+.field-list .field-item-17{
+	background-position:-1408px 0;
+}
+.field-list .field-item-18{
+	background-position:-1496px 0;
+}
+.field-list li .field-ico{
+	width:88px;
+	height:88px;
+	background-image:url("../../images/o2o/nongcun/field-ico.png");
+	background-repeat:no-repeat;
+}
+.field-list .field-ico-2{
+	background-position:-88px 0;
+}
+.field-list .field-ico-3{
+	background-position:-176px 0;
+}
+.field-list .field-ico-4{
+	background-position:-264px 0;
+}
+.field-list .field-ico-5{
+	background-position:-352px 0;
+}
+.field-list .field-ico-6{
+	background-position:-440px 0;
+}
+.field-list .field-ico-7{
+	background-position:-528px 0;
+}
+.field-list .field-ico-8{
+	background-position:-616px 0;
+}
+.field-list .field-ico-9{
+	background-position:-704px 0;
+}
+.field-list .field-ico-10{
+	background-position:-792px 0;
+}
+.field-list .field-ico-11{
+	background-position:-880px 0;
+}
+.field-list .field-ico-12{
+	background-position:-968px 0;
+}
+.field-list .field-ico-13{
+	background-position:-1056px 0;
+}
+.field-list .field-ico-14{
+	background-position:-1144px 0;
+}
+.field-list .field-ico-15{
+	background-position:-1232px 0;
+}
+.field-list .field-ico-16{
+	background-position:-1320px 0;
+}
+.field-list .field-ico-17{
+	background-position:-1408px 0;
+}
+.field-list .field-ico-18{
+	background-position:-1496px 0;
+}
+.field-list li:hover .field-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.field-list li a{
+	display: block;
+}
+.field-list p{
+	line-height: 56px;
+	margin-top: 10px;
+	font-size:16px;
+	color:#666;
+}
+.nc-service{
+	height:760px;
+}
+.nc-service-info{
+	margin-top: 80px;
+	height:430px;
+	background:url("../../images/o2o/nongcun/nc-service-info.jpg") no-repeat center top;
+}
+.profit{
+	height:860px;
+}
+.profit-info{
+	height:640px;
+	background:url("../../images/o2o/nongcun/profit-info.png") no-repeat center top;
+}
+/* choice */
+.choice-tab-tit{
+	color:#fb9264;
+}
+.choice-tab ul .active{
+	color:#fb9264;
+}
+.choice-info .choice-img{
+	background-color: #fb9264;
+}
+/* consult */
+.consult{
+	height:300px;
+	padding-top: 60px;
+	background:#fc9;
+	text-align: center;
+}
+.consult p{
+	font-size:32px;
+	color:#182f3d;
+	line-height: 60px;
+}
+.consult .consult-main{
+	line-height: 64px;
+	color:#db543d;
+	font-size:34px;
+	margin-bottom: 34px;
+}
+.consult .consult-btn{
+	width:300px;
+	margin: 0 auto;
+	line-height: 56px;
+	background:#6e5148;
+	border-radius:10px;
+}
+.consult .consult-btn a{
+	color:#fff;
+	display: block;
+	font-size:22px;
+}
+/* footer */
+.o2o-footer{
+	height:870px;
+	background:#fb9264 url("../../images/o2o/public/o2o-footer.png") no-repeat center top;
+}
+.o2o-footer .o2o-code .code-tip{
+	background:#fbe89e;
+	color:#583d37;
+}
+.o2o-footer .o2o-footer-list{
+	width:720px;
+}
+.o2o-footer-list li{
+	width:240px;
+}
+.o2o-footer-list .weixin{
+	background:url("../../images/o2o/nongcun/weixin.png") no-repeat;
+}
+.o2o-footer-list .ios{
+	background:url("../../images/o2o/nongcun/ios.png") no-repeat;
+}
+.o2o-footer-list .android{
+	background:url("../../images/o2o/nongcun/android.png") no-repeat;
+}
+.o2o-footer-list .pc{
+	background:url("../../images/o2o/nongcun/pc.png") no-repeat;
+}
+.o2o-footer-list .pc2{
+	background:url("../../images/o2o/nongcun/pc2.png") no-repeat;
+}
+.o2o-footer-btn{
+	width:1134px;
+	margin-top: 60px;
+	border:3px solid #fed8c7;
+	background:#fb9d74;
+}

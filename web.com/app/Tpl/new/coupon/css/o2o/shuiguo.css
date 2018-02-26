@@ -1,0 +1,235 @@
+.banner{
+	height: 530px;
+	background: url("../../images/o2o/shuiguo/banner.jpg") no-repeat center top;
+}
+/* function */
+.function{
+	background:#f5f5f5;
+	height:1130px;
+}
+.function .function-list{
+	width:1220px;
+	margin: 30px auto 0;
+}
+.function .function-list li{
+	width:228px;
+	margin: 0 8px 16px;
+	background:#fff;
+	float: left;
+	height:222px;
+	padding-top: 40px;
+}
+.function .function-list li:hover{
+	box-shadow:0 0 10px rgba(0, 0, 0, .3);
+}
+.function .function-list .function-ico{
+	height:116px;
+	background-image:url("../../images/o2o/shuiguo/function.png");
+	background-repeat:no-repeat;
+}
+.function-ico-2{
+	background-position:-228px 0;
+}
+.function-ico-3{
+	background-position:-456px 0;
+}
+.function-ico-4{
+	background-position:-684px 0;
+}
+.function-ico-5{
+	background-position:-912px 0;
+}
+.function-ico-6{
+	background-position:-1140px 0;
+}
+.function-ico-7{
+	background-position:-1368px 0;
+}
+.function-ico-8{
+	background-position:-1596px 0;
+}
+.function-ico-9{
+	background-position:-1824px 0;
+}
+.function-ico-10{
+	background-position:-2052px 0;
+}
+.function-ico-11{
+	background-position:-2280px 0;
+}
+.function-ico-12{
+	background-position:-2508px 0;
+}
+.function-ico-13{
+	background-position:-2736px 0;
+}
+.function-ico-14{
+	background-position:-2964px 0;
+}
+.function-ico-15{
+	background-position:-3192px 0;
+}
+.function .function-list p{
+	line-height: 106px;
+	color:#000;
+	font-size:20px;
+	text-align: center;
+}
+/* service */
+.service .service-tab{
+	width:480px;
+	border:1px solid #eee;
+	box-shadow:0 5px 5px rgba(0, 0, 0, .05);
+	line-height: 54px;
+	height:54px;
+	margin: 0 auto;
+	border-radius:27px;
+	overflow: hidden;
+}
+.service-tab .service-tab-item{
+	line-height: 54px;
+	height:54px;
+	border-right:1px solid #eee;
+	width:239px;
+	float: left;
+	font-size:18px;
+	color:#7e7e7e;
+	text-align: center;
+	cursor: pointer;
+}
+.service-tab .br0{
+	border-right:0;
+}
+.service-tab .active{
+	background:#49b44f;
+	color:#fff;
+}
+.service-list{
+	padding-top: 50px;
+	width:1132px;
+	margin: 0 auto;
+	display:none;
+}
+.service-list.active{
+	display:block;
+}
+.service-list-1{
+	background:url("../../images/o2o/shuiguo/service-line-1.jpg") no-repeat center 150px;
+}
+.service-list-2{
+	background:url("../../images/o2o/shuiguo/service-line-2.jpg") no-repeat center 150px;
+}
+.service-list ul{
+	width:1068px;
+	margin: 0 auto;
+}
+.service-list ul li{
+	width:267px;
+	float: left;
+	margin-bottom:86px ;
+	text-align: center;
+}
+.service-list .service-info{
+	margin-top: 8px;
+}
+.service-list .service-tit{
+	line-height: 44px;
+	font-size:18px;
+	color:#333;
+}
+.service-list .service-img{
+	width:111px;
+	height:111px;
+	margin: 0 auto;
+	background-image:url("../../images/o2o/shuiguo/service-bg.png");
+	background-repeat:no-repeat;
+}
+.service-list .service-ico{
+	width:111px;
+	height:111px;
+	background-repeat:no-repeat;
+}
+.service-list-1 .service-ico{
+	background-image:url("../../images/o2o/shuiguo/service-ico-1.png");
+}
+.service-list-2 .service-ico{
+	background-image:url("../../images/o2o/shuiguo/service-ico-2.png");
+}
+.service-list li:hover .service-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.service-list .service-ico-2{
+	background-position:-111px 0;
+}
+.service-list .service-ico-3{
+	background-position:-222px 0;
+}
+.service-list .service-ico-4{
+	background-position:-333px 0;
+}
+.service-list .service-ico-5{
+	background-position:-444px 0;
+}
+.service-list .service-ico-6{
+	background-position:-555px 0;
+}
+.service-list .service-ico-7{
+	background-position:-666px 0;
+}
+.service-list .service-ico-8{
+	background-position:-777px 0;
+}
+/* public */
+.choice-tab{
+	background:#fff;
+}
+.choice-tab-item{
+	background:#efefef;
+	border-bottom:0;
+	line-height: 54px;
+	color:#666;
+}
+.choice-tab-item.active{
+	border-bottom:0;
+	background:#49b44f;
+	color:#fff;
+}
+.choice-info .choice-img{
+	background-color: #49b44f;
+}
+/* footer */
+.o2o-footer{
+	height:830px;
+	background:#49b44f url("../../images/o2o/public/o2o-footer.png") no-repeat center top;
+}
+.o2o-footer .o2o-code .code-tip{
+	background:#fbe89e;
+	color:#49b44f;
+}
+.o2o-footer .o2o-footer-list{
+	width:960px;
+}
+.o2o-footer-list li{
+	width:240px;
+}
+.o2o-footer-list .weixin{
+	background:url("../../images/o2o/shuiguo/weixin.png") no-repeat;
+}
+.o2o-footer-list .ios{
+	background:url("../../images/o2o/shuiguo/ios.png") no-repeat;
+}
+.o2o-footer-list .android{
+	background:url("../../images/o2o/shuiguo/android.png") no-repeat;
+}
+.o2o-footer-list .pc{
+	background:url("../../images/o2o/shuiguo/pc.png") no-repeat;
+}
+.o2o-footer-btn{
+	width:1134px;
+	border:3px solid #bde4c0;
+	background:#5cbc61;
+}

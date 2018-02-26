@@ -1,0 +1,123 @@
+.banner{
+	height: 532px;
+	background: url("../../images/o2o/meirong/banner.jpg") no-repeat center top;
+}
+.build{
+	background: #f5f5f5;
+	height: 1120px;
+}
+.build .build-list{
+	padding-top: 40px;
+	width:1128px;
+	margin: 0 auto;
+}
+.build .build-list li{
+	margin: 0 10px 20px;
+	text-align: center;
+	width:262px;
+	height: 212px;
+	float: left;
+	background:#fff;
+	padding-top: 50px;
+}
+.build .build-list .more{
+	padding-top: 0;
+	height:262px;
+}
+.build .build-list .more a{
+	display: block;
+	height: 212px;
+	padding-top: 50px;
+}
+.build .build-list li:hover{
+	box-shadow:0 0 10px rgba(0, 0, 0, .1);
+}
+.build .build-list .build-ico{
+	height: 100px;
+	background-image: url("../../images/o2o/meirong/build.jpg");
+	background-repeat:no-repeat;
+}
+.build .build-list .build-ico-2{
+	background-position:-262px 0;
+}
+.build .build-list .build-ico-3{
+	background-position:-524px 0;
+}
+.build .build-list .build-ico-4{
+	background-position:-786px 0;
+}
+.build .build-list .build-ico-5{
+	background-position:-1048px 0;
+}
+.build .build-list .build-ico-6{
+	background-position:-1310px 0;
+}
+.build .build-list .build-ico-7{
+	background-position:-1572px 0;
+}
+.build .build-list .build-ico-8{
+	background-position:-1834px 0;
+}
+.build .build-list .build-ico-9{
+	background-position:-2096px 0;
+}
+.build .build-list .build-ico-10{
+	background-position:-2358px 0;
+}
+.build .build-list .build-ico-11{
+	background-position:-2620px 0;
+}
+.build .build-list .build-ico-12{
+	background-position:-2882px 0;
+}
+.build .build-list .build-tit{
+	line-height: 98px;
+	font-size:20px;
+	color:#222;
+}
+.service{
+	height:680px;
+}
+.service .service-info{
+	margin-top: 30px;
+	height:397px;
+	background:url("../../images/o2o/meirong/service-info.jpg") no-repeat center top;
+}
+/* choice */
+.choice-tab-tit{
+	color:#5d2c61;
+}
+.choice-tab ul .active{
+	color:#5d2c61;
+}
+.choice-info .choice-img{
+	background-color: #969;
+}
+/* footer */
+.o2o-footer{
+	background:#996699 url("../../images/o2o/public/o2o-footer.png") no-repeat center top;
+}
+.o2o-footer .o2o-code .code-tip{
+	background:#fbe89e;
+	color:#663366;
+}
+.o2o-footer-list li{
+	width:300px;
+}
+.o2o-footer-list .weixin{
+	background:url("../../images/o2o/meirong/weixin.png") no-repeat;
+}
+.o2o-footer-list .ios{
+	background:url("../../images/o2o/meirong/ios.png") no-repeat;
+}
+.o2o-footer-list .android{
+	background:url("../../images/o2o/meirong/android.png") no-repeat;
+}
+.o2o-footer-list .pc{
+	background:url("../../images/o2o/meirong/pc.png") no-repeat;
+}
+.o2o-footer-btn{
+	width:1074px;
+	border:3px solid #d6c2d6;
+	background:#a376a3;
+}

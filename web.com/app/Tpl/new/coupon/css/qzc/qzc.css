@@ -1,0 +1,337 @@
+.weshare h1{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+.weshare h1 strong{color: #ec4242;}
+
+.weshare p{
+    font-size: 22px;
+    line-height: 36px;
+    padding-top: 21px;
+}
+.weshare .btn{
+    display:block;
+    margin: 0 auto;
+    width: 252px;
+    height: 60px;
+}
+.whatisqzc{background: url("../../images/qzc/part-1-bg.jpg") center 0;height: 538px;}
+
+.whatisqzc h1{
+    padding-top: 66px;
+}
+
+.whatisqzc p em{color: #ec4242;font-size: 17px;}
+.whatisqzc p strong{font-size: 18px;}
+
+.whatisqzc .alldream{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 69px;
+    width: 790px;
+    height: 180px;
+    color: #444;
+}
+
+.whatisqzc .alldream h2{
+    position: absolute;
+    top: -33px;
+    left: 246px;
+    margin: 0 auto;
+    width: 308px;
+    height: 50px;
+    background: #ffe86a;
+    font-size: 21px;
+    color: #ec4242;
+    line-height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.whatisqzc .alldream ul{
+    padding-top: 63px;
+    text-align: center;
+    zoom:1;
+}
+
+.whatisqzc .alldream li{
+    width: 15%;
+    display: inline-block;
+    zoom:1;
+}
+
+.whatisqzc .alldream li{
+    zoom:1;
+    *display:inline;
+}
+
+.whatisqzc .alldream li .icon{
+    display: block;
+    margin: 0 auto;
+    background: url("../../images/qzc/inon-list.png") no-repeat;
+}
+.whatisqzc .alldream li .icon-1{
+    width: 38px;
+    height: 54px;
+    background-position: 0 0;
+}
+
+.whatisqzc .alldream li .icon-2{
+    width: 35px;
+    height: 54px;
+    background-position: -38px 0;
+}
+
+.whatisqzc .alldream li .icon-3{
+    width: 47px;
+    height: 54px;
+    background-position: -73px 0;
+}
+
+.whatisqzc .alldream li .icon-4{
+    width: 51px;
+    height: 54px;
+    background-position: -120px 0;
+}
+
+.whatisqzc .alldream li .icon-5{
+    width: 46px;
+    height: 54px;
+    background-position: -171px 0;
+}
+
+.whatisqzc .alldream li .icon-6{
+    width: 39px;
+    height: 54px;
+    background-position: -217px 0;
+}
+
+.whatisqzc .alldream li em{
+    font-size: 17px;
+    line-height: 54px;
+    color: #444;
+}
+
+
+.model-charm{
+    padding: 47px 0 56px 0;
+    background-color: #fff;
+}
+
+.model-charm .cham-icon{
+    margin-top: 46px;
+    width: 100%;
+    height: 181px;
+    background: url("../../images/qzc/cham-icon.jpg") center 0 no-repeat;
+}
+
+.feature li{
+    float: left;
+    width: 25%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.feature li p{
+    padding-top: 0;
+    font-size: 20px;
+    line-height: 54px;
+    color: #444;
+}
+
+.seedweet-qzc{
+    padding: 53px 0 15px 0;
+    width: 100%;
+    background: url("../../images/qzc/part-3-bg.jpg") center 0 no-repeat;
+}
+
+.seedweet-qzc h1{
+    color: #ec4242;
+    font-weight: bold;
+}
+
+.seedweet-qzc p{
+    color: #ec4242;
+    font-size: 18px;
+}
+
+.seedweet-qzc .btn{
+    background: url("../../images/qzc/btn.png") center 0 no-repeat;
+    width: 267px;
+    height: 77px;
+    margin-top: 20px;
+}
+
+.seedweet-step{padding: 68px 0 55px 0;}
+
+.seedweet-step .treestep{
+    margin-top: 33px;
+    width: 100%;
+    height: 320px;
+    background: url("../../images/qzc/step.png") center 0 no-repeat;
+}
+
+.seedweet-step li{
+    float: left;
+    width: 33.33%;
+    line-height: 26px;
+    font-size: 17px;
+}
+
+.more-reason{
+    padding-top: 62px;
+    background: #e8f8fd;
+}
+
+.more-reason ul{
+    float: left;
+    margin: 80px 0 35px 0;
+    width:50%;
+    overflow: hidden;
+}
+
+.more-reason li{
+    width:100%;
+    padding:25px 0 25px 60px;
+    text-align: left;
+}
+
+.more-reason .icon{
+    display:block;
+    float: left;
+    width: 92px;
+    height: 92px;
+    background: url("../../images/qzc/reason-list.png") no-repeat;
+}
+
+.more-reason .icon:hover{
+    animation: hover 1.5s;
+    -moz-animation: hover 1.5s;	/* Firefox */
+    -webkit-animation: hover 1.5s;	/* Safari 鍜� Chrome */
+    -o-animation: hover 1.5s;	/* Opera */
+}
+
+.more-reason .icon-1{
+    background-position: 0 0;
+}
+
+.more-reason .icon-2{
+    background-position: -92px 0;
+}
+
+.more-reason .icon-3{
+    background-position: -184px 0;
+}
+
+.more-reason .icon-4{
+    background-position: -276px 0;
+}
+
+.more-reason .icon-5{
+    background-position: -368px 0;
+}
+
+.more-reason .icon-6{
+    background-position: -460px 0;
+}
+
+.more-reason .reason-con{
+    float: left;
+    padding-top: 5px;
+    margin-left: 25px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.more-reason em{
+    display:block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.operate{
+    padding: 64px 0 68px 0;
+    background:#fff;
+}
+
+.operate ul{
+    margin: 63px auto 56px;
+    text-align: center;
+}
+
+.operate li{
+    display:inline-block;
+    width: 210px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.operate li{
+    *display:inline;
+    zoom: 1;
+}
+
+.operate li:first-child{
+    margin-left: 0px;
+}
+
+.operate .icon{
+    display: block;
+    margin: 0 auto 16px;
+    width: 210px;
+    height: 76px;
+    background: url("../../images/qzc/success-case-lisi.png") no-repeat;
+}
+
+.operate .icon-1{
+    background-position: 0 0;
+}
+
+.operate .icon-2{
+    background-position: -210px 0;
+}
+
+.operate .icon-3{
+    background-position: -420px 0;
+}
+
+.operate #qzc2{
+    position: relative;
+    display:inline-block;
+    margin: 0 auto;
+    width: 244px;
+    height: 68px;
+    border: 3px solid #ec4242;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 68px;
+    color: #ec4242;
+}
+
+@-moz-keyframes hover /* Firefox */
+{
+    50%  {transform: scale(1.5,1.5)}
+    100% {transform: scale(1,1)}
+}
+
+@-webkit-keyframes hover /* Safari 鍜� Chrome */
+{
+    50%  {transform: scale(1.5,1.5)}
+    100% {transform: scale(1,1)}
+}
+
+@-o-keyframes hover /* Opera */
+{
+    50%  {transform: scale(1.5,1.5)}
+    100% {transform: scale(1,1)}
+}
+
+@keyframes hover
+{
+    50%  {transform: scale(1.5,1.5)}
+    100% {transform: scale(1,1)}
+}

@@ -1,0 +1,483 @@
+.banner{
+	height: 530px;
+	background: url("../../images/o2o/tongcheng/banner.jpg") no-repeat center top;
+}
+.main-tit .special-tit{
+	margin-top: 8px;
+	display: inline-block;
+	padding:0 45px;
+	line-height: 30px;
+	height:30px;
+	background:#eee;
+	border-radius:15px;
+	color:#555;
+	font-size:16px;
+	margin-bottom:20px;
+}
+.main-tit .special-tit{
+	*display:inline;
+}
+.main-tit .special-tit span{
+	font-weight:bold;
+	color:#39c4a4;
+}
+.hot-mode{
+	height:705px;
+	background:#f6f6f6;
+}
+.hot-mode-list{
+	width:1200px;
+	padding-top: 20px;
+	margin:0 auto;
+}
+.hot-mode-list li{
+	width:352px;
+	height:346px;
+	float: left;
+	border:1px solid #e1e1e1;
+	border-bottom-width:2px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-1{
+	border-bottom-color:#25b7aa;
+}
+.hot-mode-list .hot-item-2{
+	border-bottom-color:#f42e5e;
+	margin: 0 69px;
+}
+.hot-mode-list .hot-item-3{
+	border-bottom-color:#eb6100;
+}
+.hot-mode-list .hot-item-img{
+	padding-top: 50px;
+	height:104px;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-img img{
+	height:100%;
+	display: block;
+	margin: 0 auto;
+}
+.hot-mode-list .hot-item-tit{
+	margin-top: 30px;
+	font-weight:bold;
+	color:#262626;
+	line-height: 60px;
+	font-size:19px;
+}
+.hot-mode-list .hot-item-tip{
+	color:#7e7e7e;
+	line-height: 24px;
+	font-size:15px;
+}
+.hot-mode-list .hot-info{
+	width:354px;
+	height:348px;
+	top: 346px;
+	left: -1px;
+	position: absolute;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.hot-mode-list li:hover .hot-info{
+	top: -1px;
+}
+.hot-mode-list .hot-info td{
+	height:280px;
+	color:#fff;
+	padding:0 40px;
+	text-align:left;
+	font-size:16px;
+	line-height: 24px;
+}
+.hot-mode-list .hot-info .hot-btn{
+	width:140px;
+	line-height: 28px;
+	display: block;
+	margin: 0 auto;
+	border:2px solid #fff;
+	color:#fff;
+}
+.hot-mode-list .hot-item-1 .hot-info{
+	background:#25b7aa;
+}
+.hot-mode-list .hot-item-2 .hot-info{
+	background:#f42e5e;
+}
+.hot-mode-list .hot-item-3 .hot-info{
+	background:#eb6100;
+}
+/* field */
+.field{
+	height:800px;
+}
+.field-list{
+	width:1212px;
+	margin: 30px auto;
+}
+.field-list li{
+	width:88px;
+	margin: 0 56px;
+	height:154px;
+	float: left;
+	text-align: center;
+	background-image:url("../../images/o2o/tongcheng/field-bg.png");
+	background-repeat:no-repeat;
+}
+.field-list .field-item-2{
+	background-position:-88px 0;
+}
+.field-list .field-item-3{
+	background-position:-176px 0;
+}
+.field-list .field-item-4{
+	background-position:-264px 0;
+}
+.field-list .field-item-5{
+	background-position:-352px 0;
+}
+.field-list .field-item-6{
+	background-position:-440px 0;
+}
+.field-list .field-item-7{
+	background-position:-528px 0;
+}
+.field-list .field-item-8{
+	background-position:-616px 0;
+}
+.field-list .field-item-9{
+	background-position:-704px 0;
+}
+.field-list .field-item-10{
+	background-position:-792px 0;
+}
+.field-list .field-item-11{
+	background-position:-880px 0;
+}
+.field-list .field-item-12{
+	background-position:-968px 0;
+}
+.field-list .field-item-13{
+	background-position:-1056px 0;
+}
+.field-list .field-item-14{
+	background-position:-1144px 0;
+}
+.field-list .field-item-15{
+	background-position:-1232px 0;
+}
+.field-list .field-item-16{
+	background-position:-1320px 0;
+}
+.field-list .field-item-17{
+	background-position:-1408px 0;
+}
+.field-list .field-item-18{
+	background-position:-1496px 0;
+}
+.field-list li .field-ico{
+	width:88px;
+	height:88px;
+	background-image:url("../../images/o2o/tongcheng/field-ico.png");
+	background-repeat:no-repeat;
+}
+.field-list .field-ico-2{
+	background-position:-88px 0;
+}
+.field-list .field-ico-3{
+	background-position:-176px 0;
+}
+.field-list .field-ico-4{
+	background-position:-264px 0;
+}
+.field-list .field-ico-5{
+	background-position:-352px 0;
+}
+.field-list .field-ico-6{
+	background-position:-440px 0;
+}
+.field-list .field-ico-7{
+	background-position:-528px 0;
+}
+.field-list .field-ico-8{
+	background-position:-616px 0;
+}
+.field-list .field-ico-9{
+	background-position:-704px 0;
+}
+.field-list .field-ico-10{
+	background-position:-792px 0;
+}
+.field-list .field-ico-11{
+	background-position:-880px 0;
+}
+.field-list .field-ico-12{
+	background-position:-968px 0;
+}
+.field-list .field-ico-13{
+	background-position:-1056px 0;
+}
+.field-list .field-ico-14{
+	background-position:-1144px 0;
+}
+.field-list .field-ico-15{
+	background-position:-1232px 0;
+}
+.field-list .field-ico-16{
+	background-position:-1320px 0;
+}
+.field-list .field-ico-17{
+	background-position:-1408px 0;
+}
+.field-list .field-ico-18{
+	background-position:-1496px 0;
+}
+.field-list li:hover .field-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.field-list li a{
+	display: block;
+}
+.field-list p{
+	line-height: 56px;
+	margin-top: 10px;
+	font-size:16px;
+	color:#666;
+}
+/* service */
+.service{
+	background:#f6f6f6;
+}
+.service-list{
+	width:1132px;
+	margin: 0 auto;
+	background:url("../../images/o2o/tongcheng/service-line.jpg") no-repeat center 150px;
+}
+.service-list ul{
+	width:1068px;
+	margin: 0 auto;
+}
+.service-list ul li{
+	width:267px;
+	float: left;
+	margin-bottom:86px ;
+	text-align: center;
+}
+.service-list .service-info{
+	height:96px;
+	margin-top: 8px;
+}
+.service-list .service-tit{
+	line-height: 38px;
+	font-size:18px;
+	color:#333;
+}
+.service-list .service-tip{
+	line-height: 20px;
+	font-size:14px;
+	color:#999;
+}
+.service-list .service-img{
+	width:111px;
+	height:111px;
+	margin: 0 auto;
+	background-image:url("../../images/o2o/tongcheng/service-bg.png");
+	background-repeat:no-repeat;
+}
+.service-list .service-img-2{
+	background-position:0 -111px;
+}
+.service-list .service-img-3{
+	background-position:0 -222px;
+}
+.service-list .service-img-4{
+	background-position:0 -333px;
+}
+.service-list .service-img-5{
+	background-position:0 -444px;
+}
+.service-list .service-img-6{
+	background-position:0 -555px;
+}
+.service-list .service-img-7{
+	background-position:0 -666px;
+}
+.service-list .service-img-8{
+	background-position:0 -777px;
+}
+.service-list .service-ico{
+	width:111px;
+	height:111px;
+	background-image:url("../../images/o2o/tongcheng/service-ico.png");
+	background-repeat:no-repeat;
+}
+.service-list li:hover .service-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.service-list .service-ico-2{
+	background-position:0 -111px;
+}
+.service-list .service-ico-3{
+	background-position:0 -222px;
+}
+.service-list .service-ico-4{
+	background-position:0 -333px;
+}
+.service-list .service-ico-5{
+	background-position:0 -444px;
+}
+.service-list .service-ico-6{
+	background-position:0 -555px;
+}
+.service-list .service-ico-7{
+	background-position:0 -666px;
+}
+.service-list .service-ico-8{
+	background-position:0 -777px;
+}
+/* 应用 */
+.apply{
+	height:930px;
+}
+.apply .apply-tab{
+	width:720px;
+	border:1px solid #e5e5e5;
+	box-shadow:0 5px 5px rgba(0, 0, 0, .05);
+	line-height: 54px;
+	height:54px;
+	margin: 0 auto;
+	border-radius:27px;
+	overflow: hidden;
+}
+.apply-tab .apply-tab-item{
+	line-height: 54px;
+	height:54px;
+	border-right:1px solid #e5e5e5;
+	width:239px;
+	float: left;
+	font-size:18px;
+	color:#7e7e7e;
+	text-align: center;
+	cursor: pointer;
+}
+.apply-tab .br0{
+	border-right:0;
+}
+.apply-tab .active{
+	background:#66cccc;
+	color:#fff;
+}
+.apply-info{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 82px 0;
+}
+.apply-info-item{
+	display: none;
+}
+.apply-info-item>img{
+	margin-top:28px;
+	width: 707px;
+	float: left;
+}
+.apply-info-item .apply-detail{
+	float: left;
+	margin-left: 85px;
+}
+.apply-info-item .apply-tit{
+	line-height: 40px;
+	font-size:30px;
+	color:#363636;
+}
+.apply-info-item .apply-tip{
+	line-height: 25px;
+	font-size:15px;
+	color:#339999;
+}
+.apply-list{
+	margin-top: 24px;
+}
+.apply-list li{
+	margin-bottom: 10px;
+}
+.apply-list .apply-ico{
+	width:44px;
+	float: left;
+}
+.apply-list p{
+	float: left;
+	line-height: 24px;
+	color:#666;
+	margin-top: 8px;
+	font-size:15px;
+}
+.apply-info .active{
+	display: block;
+}
+/* mode */
+.mode{
+	background:url("../../images/o2o/tongcheng/mode-bg.jpg") no-repeat center 120px;
+	height:845px;
+}
+/* choice */
+.choice-tab-tit{
+	color:#39c4a4;
+}
+.choice-tab ul .active{
+	color:#39c4a4;
+}
+.choice-info .choice-img{
+	background-color: #39c4a4;
+}
+/* footer */
+.o2o-footer{
+	height:870px;
+	background:#3c9 url("../../images/o2o/public/o2o-footer.png") no-repeat center top;
+}
+.o2o-footer .o2o-code .code-tip{
+	background:#fbe89e;
+	color:#3c9;
+}
+.o2o-footer .o2o-footer-list{
+	width:720px;
+}
+.o2o-footer-list li{
+	width:240px;
+}
+.o2o-footer-list .weixin{
+	background:url("../../images/o2o/tongcheng/weixin.png") no-repeat;
+}
+.o2o-footer-list .ios{
+	background:url("../../images/o2o/tongcheng/ios.png") no-repeat;
+}
+.o2o-footer-list .android{
+	background:url("../../images/o2o/tongcheng/android.png") no-repeat;
+}
+.o2o-footer-list .pc{
+	background:url("../../images/o2o/tongcheng/pc.png") no-repeat;
+}
+.o2o-footer-list .pc2{
+	background:url("../../images/o2o/tongcheng/pc2.png") no-repeat;
+}
+.o2o-footer-list .pc3{
+	background:url("../../images/o2o/tongcheng/pc3.png") no-repeat;
+}
+.o2o-footer-btn{
+	width:1134px;
+	margin-top: 60px;
+	border:3px solid #b5edda;
+	background:#48d1a3;
+}

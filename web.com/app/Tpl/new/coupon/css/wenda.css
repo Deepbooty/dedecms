@@ -1,0 +1,112 @@
+.banner{
+	height: 772px;
+	background:url("../images/cp/voice/1.jpg") no-repeat center center;
+}
+.organization-list li{
+	padding:34px 0;
+	float: left;
+	width:400px;
+	text-align: center;
+}
+.organization-list li .organ-img{
+	width:107px;
+	height: 107px;
+	margin: 0 auto;
+	background-image:url("../images/cp/voice/organ-img.jpg");
+	background-repeat:no-repeat;
+}
+.organization-list li .organ-img-2{
+	background-position:-107px 0;
+}
+.organization-list li .organ-img-3{
+	background-position:-214px 0;
+}
+.organization-list li .organ-name{
+	font-weight:bold;
+	font-size:18px;
+	color:#444;
+	padding-top:4px;
+	line-height: 48px;
+
+}
+.organization-list li .organ-tit{
+	color:#777;
+	line-height: 25px;
+}
+.custom-info{
+	background:#f5f6fa;
+	text-align: center;
+}
+.custom-info .title{
+	padding-top:20px;
+	line-height: 140px;
+	font-size:24px;
+	color:#444;
+}
+.custom-img-list{
+	width:1009px;
+	margin: 0 auto;
+}
+.custom-img-list li{
+	width:283px;
+	float: left;
+	margin: 0 26px;
+	height: 487px;
+	background-image:url("../images/cp/voice/custom-img.png");
+	background-repeat:no-repeat;
+}
+.custom-img-list .custom-img-2{
+	background-position:-283px 0;
+}
+.custom-img-list .custom-img-3{
+	background-position:-566px 0;
+}
+.custom-btn{
+	margin: 65px auto 0;
+	display: block;
+	text-align: center;
+	width:140px;
+	line-height: 54px;
+	border-radius:27px;
+	color:#fff;
+	background:#7398e8;
+	font-size:20px;
+}
+.custom-tip{
+	color:#777;
+	line-height: 80px;
+	padding-bottom:26px;
+}
+.cp-info{
+	height: 559px;
+	background:url("../images/cp/voice/cp-info-bg.jpg") no-repeat center center;
+}
+.cp-info li{
+	padding-top: 129px;
+	width:400px;
+	float: left;
+	text-align: center;
+	color:#fff;
+}
+.cp-info li .cp-info-img{
+	width:131px;
+	height:150px;
+	margin: 0 auto;
+	background-image:url("../images/cp/voice/cp-info.png");
+	background-repeat:no-repeat;
+}
+.cp-info li .cp-info-img-2{
+	background-position:-131px 0;
+}
+.cp-info li .cp-info-img-3{
+	background-position:-262px 0;
+}
+.cp-info li .cp-info-tit{
+	line-height: 84px;
+	margin-top: 3px;
+	font-size:25px;
+}
+.cp-info li p{
+	line-height: 29px;
+	font-size: 15px;
+}

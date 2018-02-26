@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="Generator"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=1200">
+    <meta property="qc:admins" content="63475172776616756375"/>
+    <title>识微订餐系统 - 合肥识微数字科技有限公司</title>
+    <meta name="keywords" content="识微订餐系统互联网创新模式,互联网技术服务解决方案"/>
+    <meta name="description"
+          content="识微订餐系统识微提供全方位的互联网产业链服务。我们洞察市场、深谙技术、引入资本运作，帮助您在O2O服务、互联网金融等领域实现互联网化转型，抓住互联网+传统企业的新机遇！"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link href="app/Tpl/new/coupon/css/public.css" type="text/css" rel="stylesheet"/>
+    <link href="app/Tpl/new/coupon/css/animation.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/jquery.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/lazyload.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/jquery.timer.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/public.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/slowscroll.js"></script>
+    <style>.iepng {
+        behavior: url("app/Tpl/new/coupon/css/iepngfix.htc.txt");
+    }</style>
+    <script type="text/javascript">
+        var APP_ROOT = '';
+        var CART_URL = '/cart';
+        var CART_CHECK_URL = '/cart/check';
+        var LOADER_IMG = '../www.seedweet.com/app/Tpl/new/coupon/images/lazy_loading.gif';
+    </script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/PIE.js"></script>
+    <script>
+        $(function () {
+            if (window.PIE) {
+                $('h2,a').each(function () {
+                    PIE.attach(this);
+                });
+            }
+        });
+    </script>
+    <![endif]-->
+    <script type="text/javascript">
+        /*鼠标上移显示*/
+        $(function () {
+//hover start
+            $("#hd .nav li").hover(function () {
+                $(this).oneTime(50, function () {
+                    $(this).addClass("hover");
+                });
+                $(this).find('.software-list').height($(this).find('.software-list .warp').height() + 25);
+            }, function () {
+                $(this).oneTime(50, function () {
+                    $("#cp_list").stopTime();
+                    $(this).removeClass("hover");
+                    $(this).find('.software-list').height(0);
+                });
+            });
+            $("#35").hover(function () {
+                $(this).oneTime(50, function () {
+                    $(this).addClass("hover");
+                });
+                $(this).find('.about-us').height($(this).find('.about-us-item').length * 40);
+            }, function () {
+                $(this).oneTime(50, function () {
+                    $("#cp_list").stopTime();
+                    $(this).removeClass("hover");
+                    $(this).find('.about-us').height(0);
+                });
+            });
+//hover end 
+        });
+    </script>
+</head>
+<body>
+<div class='blank85'></div>
+<div id="hdw">
+    <div class="header">
+        <div id="hd">
+            <div class="logo">
+                <a class="link" href="index.html">
+                    <img src="app/Tpl/new/coupon/images/final.png"/>
+                </a>
+            </div>
+            <ul class="nav">
+                <li id="20">
+                    <div class="a_top">
+                        <a href="index.html">首页</a>
+                    </div>
+                </li>
+                <li id="32">
+                    <div class="a_top">
+                        <a href="index.html#">软件产品</a>
+                    </div>
+                    <div class="software-list">
+                        <div class="warp">
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        O2O系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="sqo2o.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>社区O2O <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="subsite/o2o.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>城市O2O </em>
+                                </a>
+                                <a href="o2oapp.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>上门O2O </em>
+                                </a>
+                                <a href="mendian.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>门店营销系统 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="dc.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>外卖预定系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="zhibo.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        直播系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>互动直播系统 </em>
+                                </a>
+                                <a href="neirongfufei.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>内容付费系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_yuyin.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音直播系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="jr.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        互联网金融系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="subsite/zc.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>众筹系统 </em>
+                                </a>
+                                <a href="subsite/p2p.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>P2P信贷系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <div class="software-type-name">
+                                    <em>
+                                        轻电商系统 </em>
+                                </div>
+                                <a href="subsite/1.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>一元夺宝 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="wds.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>微电商系统 </em>
+                                </a>
+                                <a href="fenxiao.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>直销系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="index.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        其他产品系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="wenda.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音问答系统 </em>
+                                </a>
+                                <a href="qipai.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>棋牌游戏系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="blank"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="65">
+                    <div class="a_top">
+                        <a href="index.html#">解决方案</a>
+                    </div>
+                    <div class="software-list">
+                        <div class="warp">
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        O2O解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="o2o_tongcheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>同城电商 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_shangcheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>多用户商城 </em>
+                                </a>
+                                <a href="o2o_shuiguo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>生鲜水果 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_wuye.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>社区物业 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_b2b2c.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>B2B2C商城 </em>
+                                </a>
+                                <a href="o2o_meirong.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>美容O2O </em>
+                                </a>
+                                <a href="o2o_jiazheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>家政O2O </em>
+                                </a>
+                                <a href="o2o_weixiu.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>维修O2O </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="zb_plan.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        直播解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>美女娱乐直播 </em>
+                                </a>
+                                <a href="zb_games.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>游戏直播 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_shopping.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>购物直播 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_education.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>教育直播 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="neirongfufei.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        内容付费解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="wenda.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费问答系统 </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费视频直播 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费社交系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_education.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>在线教育培训 </em>
+                                </a>
+                                <a href="zb_yuyin.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音直播系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        新零售解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="mendian.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>门店营销系统 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="blank"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="35">
+                    <div class="a_top">
+                        <a href="http://us">关于我们</a>
+                    </div>
+                    <div class="about-us">
+                        <a class="about-us-item" href="us.html">公司简介</a>
+                        <a class="about-us-item" href="success.html">成功案例</a>
+                        <a class="about-us-item" href="job.html">加入我们</a>
+                        <a class="about-us-item" href="contact_us.html">联系我们</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $(function () {
+        $(".showhide").bind('click', function () {
+            if ($(this).next().attr('class') == 'show') {
+                $(this).next().attr('class', '');
+            } else {
+                $(this).next().attr('class', 'show');
+            }
+        });
+        $("#description_head li a").each(function (j) {
+            $("#description #description_content div").css('border', 'none');
+            $(this).bind('click', function () {
+                $("#description_head li a").attr('class', '');
+                $(this).attr('class', 'here');
+                $("#description #description_content div").css('display', 'none');
+                $("#description #description_content div").get(j).style.display = 'block';
+            });
+        });
+    });
+</script>
+<link href="app/Tpl/new/coupon/css/peizi.css" type="text/css" rel="stylesheet"/>
+<div class="nav_banner"></div>
+<div class="h110" id="to_top">
+    <div class="fixed_nav" id="centop">
+        <ul class="clearfix o2o_page_check w_1020 all_check_nav">
+            <a class="f_l one current" rel="0" href="javascript:void(0)">产品介绍</a>
+            <a class="f_l two" rel="1" href="javascript:void(0)">功能介绍</a>
+            <a class="f_l three" rel="2" href="javascript:void(0)">产品价格</a>
+            <a class="f_l four" href="javascript:void(0)">制定流程</a>
+        </ul>
+        <div class="bor_f3f3f3"></div>
+    </div>
+</div>
+<div class="all_check all_check_0">
+    <div class="warp">
+        <div class="blank26"></div>
+        <div class="h_35"><span class="5c5c5c">什么是</span><span class="ec5051">识微外卖预订系统</span></div>
+        <p class="p_15">
+            识微外卖预订系统主要提供外卖和预订两大功能，通过外卖送上门和预订到店消费来实现。<br/>
+            通过识微外卖预订系统可以方便的基于地址位置搜索到附近的盒饭、水果、饮料、蛋糕等外卖信息。<br/>
+            消费者可以随时随地自助下单、付款、留下送货地址、电话、送货时间并添加备注，在家等着商品送上门，完成一次足不出户的完美体验。
+        </p>
+        <div class="blank67"></div>
+        <img src="app/Tpl/new/coupon/images/o2o_images/o2o_images_6.png" class="w_percentage_100"/>
+        <div class="blank22"></div>
+        <ul class="clearfix Product_introduction">
+            <li class="f_l">
+                <h6>轻松下单</h6>
+                <p>定位地址，附近商户一目了然</p>
+            </li>
+            <li class="f_l">
+                <h6>在线支付</h6>
+                <p>在线支付,享受优惠</p>
+            </li>
+            <li class="f_l">
+                <h6>送货上门</h6>
+                <p>足不出户，生活更简单</p>
+            </li>
+        </ul>
+        <div class="blank49"></div>
+    </div>
+    <div class="o2o_images_7">
+        <div class="warp">
+            <div class="blank43"></div>
+            <div class="h_35"><span class="5c5c5c">识微外卖预订系统</span><span class="ec5051">多平台解决方案</span></div>
+            <p class="p_15">
+                识微外卖预订系统是通过PC端网站、独立手机APP、微信公共账号来进行服务的网络外卖预订平台。<br/>
+                成熟的识微外卖预订系统，节约您的开发成本、缩短业务上线时间。助您迅速开启O2O行业服务，快速抢占市场份额！
+            </p>
+            <div class="blank45"></div>
+            <ul class="terminal w628 clearfix">
+                <li class="f_l one current" rel="0">PC端</li>
+                <li class="f_l two" rel="1">手机端</li>
+                <li class="f_l three" rel="2">微信端</li>
+                <li class="f_l four" rel="3">WAP端</li>
+            </ul>
+            <div class="tc terminal_img">
+                <dl style=" overflow:hidden; width:1200px; height:435px;">
+                    <dd style="display:block;" class="terminal_0">
+                        <div class="img-scroll img-scroll_0">
+                            <span class="prev prev_0 but_span"></span>
+                            <span class="next next_0 but_span"></span>
+                            <div class="img-list img-list_0">
+                                <ul>
+                                    <li><img src="app/Tpl/new/coupon/images/o2o_images/pc_img_in.png"/></li>
+                                    <li><img src="app/Tpl/new/coupon/images/o2o_images/pc_img_in_1.png"/></li>
+                                    <li><img src="app/Tpl/new/coupon/images/o2o_images/pc_img_in_2.png"/></li>
+                                    <li><img src="app/Tpl/new/coupon/images/o2o_images/pc_img_in_3.png"/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </dd>
+                    <dd style="display:block;" class="terminal_1">
+                        <div class="tc"><img src="app/Tpl/new/coupon/images/o2o_images/tel_img.png"/></div>
+                    </dd>
+                    <dd style="display:block;" class="terminal_2">
+                        <div class="tc"><img src="app/Tpl/new/coupon/images/o2o_images/tel_img.png"/></div>
+                    </dd>
+                    <dd style="display:block;" class="terminal_3">
+                        <div class="tc"><img src="app/Tpl/new/coupon/images/o2o_images/tel_img.png"/></div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="warp">
+        <div class="blank49"></div>
+        <div class="h_35"><span class="ec5051">消费者、商家、平台</span><span class="5c5c5c">多角色使用</span></div>
+        <p class="p_15">识微外卖预订系统极其在乎品质和用户体验，为不同角色提供全方位的服务，趋向终端与服务一体化，实现终端多样化</p>
+        <div class="blank107"></div>
+        <img src="app/Tpl/new/coupon/images/o2o_images/o2o_images_8.png" class="w_percentage_100"/>
+        <div class="blank20"></div>
+        <ul class="clearfix Product_introduction">
+            <li class="f_l">
+                <h6>消费者</h6>
+                <p>多平台快速下单<br/>网站、app、微信均可下单。外卖订座一站式搞定</p>
+            </li>
+            <li class="f_l">
+                <h6>平台</h6>
+                <p>方便管理订单状态、系统管理、资金流水<br/>实现用户、商户、资金全掌控</p>
+            </li>
+            <li class="f_l">
+                <h6>商家</h6>
+                <p>使用商家端即可管理订单、验证、<br/>商家信息营业状态等</p>
+            </li>
+        </ul>
+        <div class="blank78"></div>
+    </div>
+    <div class="o2o_images_9">
+        <div class="blank49"></div>
+        <div class="h_35"><span class="ec5051">识微外卖预定系统</span><span class="5c5c5c"> - 只做有品质的系统</span></div>
+        <div class="blank17"></div>
+        <a id="qqbtn5" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes"
+           class="call_server"> 联系客服</a>
+    </div>
+</div>
+<div class="all_check all_check_1" style=" display:none;">
+    <div class="c_f6f6f6">
+        <div class="warp">
+            <div class="blank70"></div>
+            <div class="h_Product_introduction"></div>
+            <div class="Exclamation_top"></div>
+            <p class="p_Product_introduction">
+                <b>识微外卖预订系统</b> 主要提供外卖和预订两大功能，通过外卖送上门和预订到店消费来实现。
+                通过识微外卖预订系统可以方便的基于地址位置搜索到附近的盒饭、水果、饮料、蛋糕等外卖信息。
+                消费者可以随时随地自助下单、付款、留下送货地址、电话、送货时间并添加备注，在家等着商品送上门，完成一次足不出户的完美体验。
+            </p>
+            <div class="Exclamation_bottom"></div>
+        </div>
+    </div>
+    <div class="warp function">
+        <div class="blank55"></div>
+        <div class="Feature_list"></div>
+        <div class="table_title pt60"><img src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/>&nbsp;用户端（WEB网站）<img
+                src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/></div>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2">功能</th>
+                <th width="892">说明</th>
+            </tr>
+            <tr>
+                <td colspan="2">注册</td>
+                <td>
+                    <div align="left">
+                        <blockquote>
+                            <p class="pl45">可以通过账户密码或手机验证码注册</p>
+                        </blockquote>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">登录</td>
+                <td>
+                    <div align="left">
+                        <blockquote>
+                            <p class="pl45">可以通过账户密码或手机动态码登录</p>
+                        </blockquote>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">地址定位</td>
+                <td>
+                    <div align="left" class="pl45">输入所在商圈，进入附近商家页面</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">附近商家</td>
+                <td>
+                    <div align="left" class="pl45">提供商家分类和活动内容进行筛选。默认根据定位地址由近到远默认排序方式显示商家信息</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">预订商家</td>
+                <td>
+                    <div align="left" class="pl45">提供商家分类和当前城市的商圈进行筛选</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">我的收藏</td>
+                <td>
+                    <div align="left" class="pl45">展示会员收藏的商家列表</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">热卖</td>
+                <td>
+                    <div align="left" class="pl45">默认根据销量展示热销的产品</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">商家介绍页</td>
+                <td>
+                    <div align="left" class="pl45">展示商家图片，商家名称、营业时间、地址、菜单、评价等信息</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">评价列表</td>
+                <td>
+                    <div align="left" class="pl45">每完成一个订单，可以对订单进一次评价</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">商家公告</td>
+                <td>
+                    <div align="left" class="pl45">内容展示商家公告，优惠活动信息</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">购物车</td>
+                <td>
+                    <div align="left" class="pl45">选中的商品，存放在购物车并计算价格</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">外卖下单</td>
+                <td>
+                    <div align="left" class="pl45">用户在下单页提交送货信息和支付方式</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">预订下单</td>
+                <td>
+                    <div align="left" class="pl45">用户在下单页提交预订信息和支付方式</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">在线支付</td>
+                <td>
+                    <div align="left" class="pl45">用户付款支持多种在线支付方式（例如支付宝、微信支付）</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="111" rowspan="11" style="line-height:18px;">会员<br/>
+                    中心
+                </td>
+                <td width="181">外卖订单</td>
+                <td>
+                    <div align="left" class="pl45">展示外卖订单，查看订单详细和状态，确认订单及点评</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">预订订单</td>
+                <td>
+                    <div align="left" class="pl45">展示预订订单，查看订单详细和状态，确认订单及点评</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">账户设置</td>
+                <td>
+                    <div align="left" class="pl45">查看或设置会员信息</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">我的资产</td>
+                <td>
+                    <div align="left" class="pl45">展示会员账户余额及资产记录；展示会员积分及积分记录<br/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">充值</td>
+                <td>
+                    <div align="left" class="pl45">账户充值与提现功能</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">送货地址</td>
+                <td>
+                    <div align="left" class="pl45">会员收货地址列表及添加</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">我的红包</td>
+                <td>
+                    <div align="left" class="pl45">显示账户红包，可通过积分兑换红包</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">会员消息</td>
+                <td>
+                    <div align="left" class="pl45">会员消息列表</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">我的收藏</td>
+                <td>
+                    <div align="left" class="pl45">展示会员收藏的商家列表</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">我的点评</td>
+                <td>
+                    <div align="left" class="pl45">会员评价列表</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="181">我的邀请</td>
+                <td>
+                    <div align="left" class="pl45">复制邀请链接，邀请好友注册购买获得返利</div>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="table_title"><img src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/>&nbsp;商户端（WEB网站）<img
+                src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/></div>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2">功能</th>
+                <th width="892">说明</th>
+            </tr>
+            <tr>
+                <td width="111" rowspan="4" style="line-height:18px;">订单<br/>
+                    管理
+                </td>
+                <td width="181">外卖订单</td>
+                <td>
+                    <div align="left" class="pl45">显示外卖订单记录，可通过订单状态、日期、支付方式、订单号或手机号进行搜索筛选</div>
+                </td>
+            </tr>
+            <tr>
+                <td>预订订单</td>
+                <td>
+                    <div align="left" class="pl45">显示预订订单记录，可通过订单状态、日期、订单号或手机号进行搜索筛选</div>
+                </td>
+            </tr>
+            <tr>
+                <td>催单记录</td>
+                <td>
+                    <div align="left" class="pl45">显示会员催单记录</div>
+                </td>
+            </tr>
+            <tr>
+                <td>预订电子券验证</td>
+                <td>
+                    <div align="left" class="pl45">验证预订订单的序列号</div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="line-height:18px;">财务<br/>
+                    管理
+                </td>
+                <td>对账单</td>
+                <td>
+                    <div align="left" class="pl45">显示商家销售记录及结算情况</div>
+                </td>
+            </tr>
+            <tr>
+                <td>提现</td>
+                <td>
+                    <div align="left" class="pl45">商家提现申请及提现记录</div>
+                </td>
+            </tr>
+            <tr>
+                <td>银行账户</td>
+                <td>
+                    <div align="left" class="pl45">商家提现银行账户设置</div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="line-height:18px;"><p>门店<br/>
+                    管理</p></td>
+                <td>门店列表</td>
+                <td>
+                    <div align="left" class="pl45">门店信息管理，可发布多门店</div>
+                </td>
+            </tr>
+            <tr>
+                <td>外卖预订设置</td>
+                <td>
+                    <div align="left" class="pl45">外卖预订业务设置</div>
+                </td>
+            </tr>
+            <tr>
+                <td>门店点评</td>
+                <td>
+                    <div align="left" class="pl45">订单点评列表及回复</div>
+                </td>
+            </tr>
+            <tr>
+                <td>账户管理</td>
+                <td>子账户列表</td>
+                <td>
+                    <div align="left" class="pl45">商户平台账号管理列表</div>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="table_title"><img src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/>&nbsp;系统管理后台端(WEB网站)<img
+                src="app/Tpl/new/coupon/images/o2o_images/bor_line.png"/></div>
+        <table>
+            <thead>
+            <tr>
+                <th width="181">功能</th>
+                <th width="892">说明</th>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">商户管理</td>
+            </tr>
+            <tr>
+                <td>供应商</td>
+                <td>
+                    <div align="left" class="pl45">管理商户及门店信息</div>
+                </td>
+            </tr>
+            <tr>
+                <td>店铺分类</td>
+                <td>
+                    <div align="left" class="pl45">设置店铺分类及商品类目</div>
+                </td>
+            </tr>
+            <tr>
+                <td>宝贝类目</td>
+                <td>
+                    <div align="left" class="pl45">管理商品的分类</div>
+                </td>
+            </tr>
+            <tr>
+                <td>点评管理</td>
+                <td>
+                    <div align="left" class="pl45">设置点评评分分组及管理会员点评</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">会员管理</td>
+            </tr>
+            <tr>
+                <td>会员管理</td>
+                <td>
+                    <div align="left" class="pl45">显示系统注册会员数据</div>
+                </td>
+            </tr>
+            <tr>
+                <td>会员返利</td>
+                <td>
+                    <div align="left" class="pl45">设置会员等级</div>
+                </td>
+            </tr>
+            <tr>
+                <td>站点消息</td>
+                <td>
+                    <div align="left" class="pl45">会员邀请记录列表</div>
+                </td>
+            </tr>
+            <tr>
+                <td>会员整合插件</td>
+                <td>
+                    <div align="left" class="pl45">系统发送的消息管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>API插件列表</td>
+                <td>
+                    <div align="left" class="pl45">会员整合设置及第三方同步设置</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">订单管理</td>
+            </tr>
+            <tr>
+                <td>订单管理</td>
+                <td>
+                    <div align="left" class="pl45">外卖和预订订单管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>支付接口列表</td>
+                <td>
+                    <div align="left" class="pl45">支付接口设置</div>
+                </td>
+            </tr>
+            <tr>
+                <td>红包列表</td>
+                <td>
+                    <div align="left" class="pl45">添加、管理、发放、查看红包</div>
+                </td>
+            </tr>
+            <tr>
+                <td>促销管理</td>
+                <td>
+                    <div align="left" class="pl45">平台促销设置和管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">短信邮件</td>
+            </tr>
+            <tr>
+                <td>队列管理</td>
+                <td>
+                    <div align="left" class="pl45">短信发送队列管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>消息模板</td>
+                <td>
+                    <div align="left" class="pl45">消息模板设置管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>短信管理</td>
+                <td>
+                    <div align="left" class="pl45">短信接口设置</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">资金管理</td>
+            </tr>
+            <tr>
+                <td>充值管理</td>
+                <td>
+                    <div align="left" class="pl45">会员在线充值记录和管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>提现管理</td>
+                <td>
+                    <div align="left" class="pl45">会员和商户提现申请列表和管理</div>
+                </td>
+            </tr>
+            <tr>
+                <td>报表</td>
+                <td>
+                    <div align="left" class="pl45">平台销售报表及商户结算报表和对账单</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="th_2">系统配置</td>
+            </tr>
+            <tr>
+                <td>系统设置</td>
+                <td>
+                    <div align="left" class="pl45">设置系统基础信息、图片配置等数据</div>
+                </td>
+            </tr>
+            <tr>
+                <td>城市商圈</td>
+                <td>
+                    <div align="left" class="pl45">设置开通的城市及城市下服务的商圈</div>
+                </td>
+            </tr>
+            <tr>
+                <td>文章管理</td>
+                <td>
+                    <div align="left" class="pl45">设置文章分类及发布分类下的文章数据</div>
+                </td>
+            </tr>
+            <tr>
+                <td>友情链接</td>
+                <td>
+                    <div align="left" class="pl45">添加友情链接数据</div>
+                </td>
+            </tr>
+            <tr>
+                <td>系统管理员</td>
+                <td>
+                    <div align="left" class="pl45">设置系统管理员和管理权限</div>
+                </td>
+            </tr>
+            <tr>
+                <td>数据库</td>
+                <td>
+                    <div align="left" class="pl45">备份数据库</div>
+                </td>
+            </tr>
+            <tr>
+                <td>系统日志</td>
+                <td>
+                    <div align="left" class="pl45">记录后台操作</div>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="blank90"></div>
+    </div>
+</div>
+<div class="all_check all_check_2" style=" display:none;">
+    <div class="warp">
+        <div class="blank20"></div>
+        <ul class="Release">
+            <li class="f_l">
+                <div class="h_name c_00a4d2">基础版</div>
+                <div class="bor_ddd">
+                    <div class="Price_num">￥8,800</div>
+                    <div class="Introduction">标准服务</div>
+                    <dl class="server_list">
+                        <dd>产品商业授权（授权一个<br/>顶级域名，不可更换）</dd>
+                        <dd>产品WEB端程序</dd>
+                        <dd>产品WAP端程序</dd>
+                    </dl>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="Advisory c_00a4d2">去咨询</a>
+                </div>
+            </li>
+            <li class="f_l">
+                <div class="h_name c_00a4d2">标准版</div>
+                <div class="bor_ddd">
+                    <div class="Price_num">￥15,800</div>
+                    <div class="Introduction">标准服务</div>
+                    <dl class="server_list">
+                        <dd>产品商业授权（授权一个<br/>顶级域名，不可更换）</dd>
+                        <dd>产品WEB端程序</dd>
+                        <dd>产品WAP端程序</dd>
+                        <dd>手机端Android+IOS</dd>
+                    </dl>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="Advisory c_00a4d2">去咨询</a>
+                </div>
+            </li>
+            <li class="f_l">
+                <div class="h_name c_14bab02">高级版</div>
+                <div class="bor_ddd">
+                    <div class="Price_num">￥26,800</div>
+                    <div class="Introduction">标准服务</div>
+                    <dl class="server_list">
+                        <dd>产品商业授权（授权一个<br/>顶级域名，不可更换）</dd>
+                        <dd>产品WEB端程序</dd>
+                        <dd>产品WAP端程序</dd>
+                        <dd>手机端Android+IOS</dd>
+                        <dd>商家移动端</dd>
+                    </dl>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="Advisory c_14bab02">去咨询</a>
+                </div>
+            </li>
+            <li class="f_l">
+                <div class="h_name c_f46173">旗舰版</div>
+                <div class="bor_ddd">
+                    <div class="Price_num">￥108,000</div>
+                    <div class="Introduction">标准服务</div>
+                    <dl class="server_list">
+                        <dd>产品商业授权（授权一个<br/>顶级域名，不可更换）</dd>
+                        <dd>产品WEB端程序源代码</dd>
+                        <dd>产品WAP端程序源代码</dd>
+                        <dd>手机端Android+IOS源代码</dd>
+                        <dd>商家移动端源代码</dd>
+                    </dl>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="Advisory c_f46173">去咨询</a>
+                </div>
+            </li>
+        </ul>
+        <div class="blank33"></div>
+        <div class="bitc_h">产品<b>授权</b></div>
+        <div class="shift">
+            <table>
+                <thead>
+                <tr>
+                    <th width="28%">功能</th>
+                    <th width="18%">基础版</th>
+                    <th width="18%">标准版</th>
+                    <th width="18%">高级版</th>
+                    <th width="18%">旗舰版</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <p style="padding-top:10px; line-height:6px;">产品商业授权</p>
+                        <p style="color:#999; font-size:12px;">（授权一个名称/顶级域名，不可更换）</p>
+                    </td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>产品WEB端</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td>源代码</td>
+                </tr>
+                <tr>
+                    <td>产品WAP端</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td>源代码</td>
+                </tr>
+                <tr>
+                    <td>手机客户端（Android）</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td>源代码</td>
+                </tr>
+                <tr>
+                    <td>手机客户端（IOS）</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td>源代码</td>
+                </tr>
+                <tr>
+                    <td>商家移动端</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td>源代码</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="bitc_h">产品<b>服务</b></div>
+        <div class="shift">
+            <table>
+                <thead>
+                <tr>
+                    <th colspan="2">服务级别</th>
+                    <th width="18%">基础版</th>
+                    <th width="18%">标准版</th>
+                    <th width="18%">高级版</th>
+                    <th width="18%">旗舰版</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="2">服务年限</td>
+                    <td class="c_fcfcfc">无服务</td>
+                    <td>1年</td>
+                    <td class="c_fcfcfc">1年</td>
+                    <td>1年</td>
+                </tr>
+                <tr>
+                    <td width="11%" rowspan="3" style=" line-height:18px"><p>文档</p>
+                        <p>资料</p></td>
+                    <td width="17%">使用说明</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td width="17%">功能列表</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td width="17%">二次开发文档</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td rowspan="6" style=" line-height:18px"><p>安装</p>
+                        <p>服务</p></td>
+                    <td>协助申请域名空间</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>协助申请网站备案</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>系统运行环境部署</td>
+                    <td class="c_fcfcfc">1次</td>
+                    <td>1次</td>
+                    <td class="c_fcfcfc">2次</td>
+                    <td>5次</td>
+                </tr>
+                <tr>
+                    <td>WEB端产品部署</td>
+                    <td class="c_fcfcfc">1次</td>
+                    <td>1次</td>
+                    <td class="c_fcfcfc">2次</td>
+                    <td>5次</td>
+                </tr>
+                <tr>
+                    <td>移动端打包</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td>1次</td>
+                    <td class="c_fcfcfc">2次</td>
+                    <td>5次</td>
+                </tr>
+                <tr>
+                    <td>移动端发布</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td>1次</td>
+                    <td class="c_fcfcfc">2次</td>
+                    <td>5次</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style=" line-height:18px"><p>培训</p>
+                        <p>服务</p></td>
+                    <td>产品使用培训</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc">1天</td>
+                    <td>2天</td>
+                </tr>
+                <tr>
+                    <td>二次开发培训</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td>3天</td>
+                </tr>
+                <tr>
+                    <td rowspan="7" style=" line-height:18px"><p>咨询</p>
+                        <p>服务</p></td>
+                    <td>协助申请支付接口</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>产品使用咨询</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>二次开发咨询</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>模板制作咨询</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>电话技术支持</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>指定工程师服务</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>安全咨询</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td rowspan="4" style=" line-height:18px"><p>维护</p>
+                        <p>服务</p></td>
+                    <td>BUG反馈与响应</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>运行故障排查</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/yes_f.png" class="pngfix"></td>
+                </tr>
+                <tr>
+                    <td>数据库修复</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc">1次</td>
+                    <td>3次</td>
+                </tr>
+                <tr>
+                    <td>数据迁移</td>
+                    <td class="c_fcfcfc"><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td><img src="app/Tpl/new/coupon/images/o2o_images/no_f.png" class="pngfix"></td>
+                    <td class="c_fcfcfc">1次</td>
+                    <td>3次</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="blank40"></div>
+    </div>
+</div>
+<script type="text/javascript" src="app/Tpl/new/coupon/js/j.js"></script>
+
+<div class="ftw">
+    <div id="ftbox">
+        <div id="ft">
+            <dl class="f_1 dl1">
+                <dt class="end_1">
+                    <img src="app/Tpl/new/coupon/images/end_1.png"/>
+                <div class="cpn_name">
+                    合肥识微数字科技有限公司
+                </div>
+                </dt>
+            </dl>
+            <dl class="f_1 dl2">
+                <dt class="end_2">
+                <p class="_link">服务热线</p>
+                <p class="lianxi_1">186-5519-3319</p>
+                <p class="shouqian"><span>售前咨询（09:00-18:00）</span></p>
+                </dt>
+            </dl>
+            <dl class="f_1 dl3">
+                <div class="_link_1">
+                    <p class="shouqian footqq"><a id="qyqq" target="_blank"
+                                                  href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes"
+                                                  title="点击联系QQ"><span>企业QQ：1536300500</span></a></p>
+                    <p class="shouqian footemail"><span>企业邮箱：Alex@seedweet.com</span></p>
+                    <p class="shouqian footadd"><span>合肥市望江西路5089号先进技术研究院711室</span></p>
+                </div>
+            </dl>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="ftbox2">
+        <div class="box">
+            <p>
+                ©SEEDWEET 2013-2017&nbsp;合肥识微数字科技有限公司&nbsp; 版权所有&nbsp;皖ICP备10015968号-6
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#qqbtn6').live('click', function () {
+            $(".yyggg").css("display", "none");
+        });
+    });
+</script>
+<div class="float-box simple" float-box="box" style="bottom: 50px; right: 20px;">
+    <div class="yyggg">
+        <a id="qqbtn7" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes"
+           title="了解详情"></a>
+        <a id="qqbtn6" href="javascript:void(0);" title="关闭"></a>
+    </div>
+    <span class="btn-4">
+<script language="javascript">
+			document.write('<div id="LR_User_Icon0"></div>');
+			</script>
+</span>
+    <div class="blank"></div>
+    <span class="btn-1 baidu-call-btn">
+<a href="javascript:void(0);"></a>
+</span>
+    <div class="blank"></div>
+    <div class="blank"></div>
+    <span class="btn-3">
+<a alt="点我关掉" href="javascript:void(0);">
+<img src="app/Tpl/new/coupon/images/wx.jpg">
+</a>
+</span>
+    <div class="blank"></div>
+    <span class="gotot" backtop="box" style="display: none;">
+<a href="javascript:;"></a>
+</span>
+</div>
+<div class="winbox">
+    <div class="pop-consult-box" pop-consult="box">
+        <a href="javascript:;" class="close-btn" close-btn="btn"></a>
+        <div class="rel" style="width:100%;">
+            <table>
+                <thead>
+                <tr>
+                    <td colspan="2">了解更多，敬请垂询 186-5519-3319</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="t-center">
+                    <td>
+                        <div class="tbody-l baidu-call">
+                            <input id="callDialogPhone" class="baidu-call-phone" type="text" name="callDialogPhone"
+                                   value="" placeholder="输入您的电话号码">
+                            <a href="javascript:;" id="callBtn" class="btn5 baidu-call-btn">立即免费通话</a>
+                            <div class="blank15"></div>
+                        </div>
+                    </td>
+                    <td class="t-left">
+                        <label>您还可以</label>
+                        <a target="_blank" id="qqbtn1"
+                           href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="btn7">
+                            <span>QQ咨询</span>
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script language="javascript">
+    <!--
+    if (typeof(LiveReceptionCode_isonline) != 'undefined') {
+        if (LiveReceptionCode_isonline) {
+            LR_GetObj('LR_User_zx1').innerHTML = '<a class="btn7" ' + LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改', '客服人员在线,欢迎点击咨询') + '>在线咨询</a>';
+            LR_GetObj('LR_User_Icon0').innerHTML = '<a class="btn4" ' + LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改', '客服人员在线,欢迎点击咨询') + '></a>';
+        }
+        else {
+            LR_GetObj('LR_User_zx1').innerHTML = '<a class="btn7" ' + LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改', '客服人员不在线,请点击留言') + '>点击留言</a>';
+            LR_GetObj('LR_User_Icon0').innerHTML = '<a class="btn5" ' + LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改', '客服人员不在线,请点击留言') + '></a>';
+        }
+    }
+    //-->
+</script>
+
+</body>
+</html>

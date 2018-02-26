@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner{
+    background: url("../../images/zb/education/banner.png") center center no-repeat;
+}
+.btn-consult{
+    border: 2px solid #98a89f;
+}
+/*----- section2 -----*/
+.iswhat {
+    background: #fff;
+}
+.what {
+    background: url("../../images/zb/shopping/what-bg.png") -16px -42px no-repeat;
+}
+.iswhat .what-list .what-item .what-icon{
+    background: url("../../images/zb/education/what-list.png") no-repeat;
+}
+.iswhat .what-list .what-item .what-icon.icon-1{
+    background-position: 0 0;
+}
+.iswhat .what-list .what-item .what-icon.icon-2{
+    background-position: 0 -222px;
+}
+.iswhat .what-list .what-item .what-icon.icon-3{
+    background-position: 0 -444px;
+}
+.iswhat .what-list .what-item .what-icon.icon-4{
+    background-position: 0 -666px;
+}
+.iswhat .what-list .what-item .btn-list .btn-demo{
+    background: #fed454;
+}
+.iswhat .what-list .what-item .btn-list .btn-consult{
+    background:#e8effa;
+}
+.iswhat .what-list .what-item .btn-list .consult{
+    color: #999;
+}
+.iswhat .build-way .tit {
+    color: #009966;
+}
+
+/*----- 特色功能 -----*/
+.m-function{
+    height: 500px;
+    background: url("../../images/zb/education/function-bg.png");
+}
+.m-function-block .function-bar{
+    background: #007556;
+}
+
+/*---- 应用场景 ----*/
+.m-scene .m-scene-block{
+    margin-right: 168px;
+}
+.m-scene-block .icon-scene{
+    background: url("../../images/zb/education/scene-list.png") no-repeat;
+}
+.m-scene-block .scene-1{
+    background-position: 8px 0;
+}
+.m-scene-block .scene-2{
+    background-position: 6px -81px
+}
+.m-scene-block .scene-3{
+    background-position: 5px -160px;
+}
+
+/*---- section 6 ----*/
+.section6{
+    width: 100%;
+    height: 563px;
+    background: url("../../images/zhibo/section6_bg.jpg") no-repeat center center;
+}
+.section6 .sec6_box{
+    margin-right: -5px;
+    margin-top: 100px;
+}
+.section6 .sec6_box li span.sec_icon{
+    display: block;
+    width: 88px;
+    height: 88px;
+    background: url("../../images/zb/education/sec6-list.png")no-repeat center;
+    margin: 30px auto 30px;
+}
+.section6 .sec6_box li span.sec_icon1 {
+    background-position: 0 0;
+    *background-position: -6px 6px;
+}
+.section6 .sec6_box li span.sec_icon2{
+    background-position: 0 -94px;
+    *background-position: -7px -89px;
+}
+.section6 .sec6_box li span.sec_icon3{
+    background-position: 0 -184px;
+    *background-position: -6px -188px;
+}
+.section6 .sec6_box li span.sec_icon4{
+    background-position: 0 -279px;
+    *background-position: -6px -284px;
+}
+.section6 .sec6_box li span.sec_icon5{
+    background-position: 0 -372px;
+    *background-position: -6px -385px;
+}
+.section6 .sec6_box li:nth-of-type(5){
+    border-right: none;
+}
+.sec6_box li .pupBox{
+    background: #000;
+    filter: Alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+}
+.sec6_box li:hover .pupBox h3{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+.sec6_box li:hover .pupBox p{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+/*---- 公司介绍 ----*/
+.choice-tab-item{
+    background:#fff;
+    line-height: 54px;
+    color:#00926b;
+}
+.choice-tab ul .active{
+    background:#00926b;
+    color:#fff;
+    border-bottom-color:#00926b;
+}
+.choice-info .choice-img{
+    background-color: #00926b;
+}
+.choice-tab-tit {
+    color: #00926b;
+}
+/*---- AD ----*/
+.AD{
+    background: url("../../images/zb/education/AD.png") 0 0 no-repeat;
+}
+.AD h2{
+    color: #fed454;
+}
+
+
+
+
+
+

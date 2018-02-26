@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="Generator"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=1200">
+    <meta property="qc:admins" content="63475172776616756375"/>
+    <title>识微社区O2O系统，专业O2O系统开发助企业快速搭建智慧社区O2O平台-识微科技 - 合肥识微数字科技有限公司</title>
+    <meta name="keywords"
+          content="社区O2O系统源码|物业O2O|便利店O2O|上门O2O|生鲜水果O2O|跑腿O2O|保洁家政O2O|安装维修O2O|医药健康O2O|外卖订餐O2O|论坛社交O2O|O2O积分商城|O2O程序开发互联网创新模式,互联网技术服务解决方案"/>
+    <meta name="description"
+          content="识微社区O2O系统，融合物业社区|智能门禁|商城|社交|积分卡券等多种功能的国内领先的专业营销型社区O2O系统，提供一站式O2O解决方案，助力企业快速整合线上线下资源搭建社区O2O平台，高效吸粉引流识微提供全方位的互联网产业链服务。我们洞察市场、深谙技术、引入资本运作，帮助您在O2O服务、互联网金融等领域实现互联网化转型，抓住互联网+传统企业的新机遇！"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link href="app/Tpl/new/coupon/css/public.css" type="text/css" rel="stylesheet"/>
+    <link href="app/Tpl/new/coupon/css/animation.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/jquery.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/lazyload.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/jquery.timer.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/public.js"></script>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/slowscroll.js"></script>
+    <style>.iepng {
+        behavior: url("app/Tpl/new/coupon/css/iepngfix.htc.txt");
+    }</style>
+    <script type="text/javascript">
+        var APP_ROOT = '';
+        var CART_URL = '/cart';
+        var CART_CHECK_URL = '/cart/check';
+        var LOADER_IMG = '../www.seedweet.com/app/Tpl/new/coupon/images/lazy_loading.gif';
+    </script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="app/Tpl/new/coupon/js/PIE.js"></script>
+    <script>
+        $(function () {
+            if (window.PIE) {
+                $('h2,a').each(function () {
+                    PIE.attach(this);
+                });
+            }
+        });
+    </script>
+    <![endif]-->
+    <script type="text/javascript">
+        /*鼠标上移显示*/
+        $(function () {
+//hover start
+            $("#hd .nav li").hover(function () {
+                $(this).oneTime(50, function () {
+                    $(this).addClass("hover");
+                });
+                $(this).find('.software-list').height($(this).find('.software-list .warp').height() + 25);
+            }, function () {
+                $(this).oneTime(50, function () {
+                    $("#cp_list").stopTime();
+                    $(this).removeClass("hover");
+                    $(this).find('.software-list').height(0);
+                });
+            });
+            $("#35").hover(function () {
+                $(this).oneTime(50, function () {
+                    $(this).addClass("hover");
+                });
+                $(this).find('.about-us').height($(this).find('.about-us-item').length * 40);
+            }, function () {
+                $(this).oneTime(50, function () {
+                    $("#cp_list").stopTime();
+                    $(this).removeClass("hover");
+                    $(this).find('.about-us').height(0);
+                });
+            });
+//hover end 
+        });
+    </script>
+</head>
+<body>
+<div class='blank85'></div>
+<div id="hdw">
+    <div class="header">
+        <div id="hd">
+            <div class="logo">
+                <a class="link" href="index.html">
+                    <img src="app/Tpl/new/coupon/images/final.png"/>
+                </a>
+            </div>
+            <ul class="nav">
+                <li id="20">
+                    <div class="a_top">
+                        <a href="index.html">首页</a>
+                    </div>
+                </li>
+                <li id="32">
+                    <div class="a_top">
+                        <a href="index.html#">软件产品</a>
+                    </div>
+                    <div class="software-list">
+                        <div class="warp">
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        O2O系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="sqo2o.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>社区O2O <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="subsite/o2o.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>城市O2O </em>
+                                </a>
+                                <a href="o2oapp.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>上门O2O </em>
+                                </a>
+                                <a href="mendian.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>门店营销系统 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="dc.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>外卖预定系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="zhibo.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        直播系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>互动直播系统 </em>
+                                </a>
+                                <a href="neirongfufei.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>内容付费系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_yuyin.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音直播系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="jr.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        互联网金融系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="subsite/zc.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>众筹系统 </em>
+                                </a>
+                                <a href="subsite/p2p.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>P2P信贷系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <div class="software-type-name">
+                                    <em>
+                                        轻电商系统 </em>
+                                </div>
+                                <a href="subsite/1.seedweet/index.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>一元夺宝 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="wds.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>微电商系统 </em>
+                                </a>
+                                <a href="fenxiao.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>直销系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="index.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        其他产品系统 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="wenda.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音问答系统 </em>
+                                </a>
+                                <a href="qipai.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>棋牌游戏系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="blank"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="65">
+                    <div class="a_top">
+                        <a href="index.html#">解决方案</a>
+                    </div>
+                    <div class="software-list">
+                        <div class="warp">
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        O2O解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="o2o_tongcheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>同城电商 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_shangcheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>多用户商城 </em>
+                                </a>
+                                <a href="o2o_shuiguo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>生鲜水果 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_wuye.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>社区物业 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="o2o_b2b2c.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>B2B2C商城 </em>
+                                </a>
+                                <a href="o2o_meirong.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>美容O2O </em>
+                                </a>
+                                <a href="o2o_jiazheng.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>家政O2O </em>
+                                </a>
+                                <a href="o2o_weixiu.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>维修O2O </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="zb_plan.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        直播解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>美女娱乐直播 </em>
+                                </a>
+                                <a href="zb_games.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>游戏直播 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_shopping.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>购物直播 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_education.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>教育直播 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="neirongfufei.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        内容付费解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="wenda.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费问答系统 </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费视频直播 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zhibo.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>付费社交系统 <i class=" hot-icon"></i>
+                                    </em>
+                                </a>
+                                <a href="zb_education.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>在线教育培训 </em>
+                                </a>
+                                <a href="zb_yuyin.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>语音直播系统 </em>
+                                </a>
+                            </div>
+                            <div class="software-type">
+                                <a href="o2o.html" class="software-type-name" target="_blank">
+                                    <em>
+                                        新零售解决方案 <i class="iconfont nav-tit-go">&#xe66e;</i>
+                                    </em>
+                                </a>
+                                <a href="mendian.html" class="software-item">
+                                    <i class="iconfont nav-sjj">&#xe66f;</i>
+                                    <em>门店营销系统 <i class=" new-icon"></i>
+                                    </em>
+                                </a>
+                            </div>
+                            <div class="blank"></div>
+                        </div>
+                    </div>
+                </li>
+                <li id="35">
+                    <div class="a_top">
+                        <a href="http://us">关于我们</a>
+                    </div>
+                    <div class="about-us">
+                        <a class="about-us-item" href="us.html">公司简介</a>
+                        <a class="about-us-item" href="success.html">成功案例</a>
+                        <a class="about-us-item" href="job.html">加入我们</a>
+                        <a class="about-us-item" href="contact_us.html">联系我们</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $(function () {
+        $(".showhide").bind('click', function () {
+            if ($(this).next().attr('class') == 'show') {
+                $(this).next().attr('class', '');
+            } else {
+                $(this).next().attr('class', 'show');
+            }
+        });
+        $("#description_head li a").each(function (j) {
+            $("#description #description_content div").css('border', 'none');
+            $(this).bind('click', function () {
+                $("#description_head li a").attr('class', '');
+                $(this).attr('class', 'here');
+                $("#description #description_content div").css('display', 'none');
+                $("#description #description_content div").get(j).style.display = 'block';
+            });
+        });
+    });
+</script>
+<script type="text/javascript" src="app/Tpl/new/coupon/js/jquery.SuperSlide.2.1.js"></script>
+<style type="text/css">.nav_banner {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    height: 480px;
+    background: url("app/Tpl/new/coupon/images/sqo2o/sqo2obannerp.jpg") no-repeat center 0 #f8f3f1;
+}
+
+.qds_b {
+    background: #f7f7f7;
+}
+
+.qds_c_m_box {
+    margin-left: -44px;
+}
+
+.qds_c_m {
+    background: #fff;
+    padding: 50px 0;
+    padding-top: 20px;
+    width: 370px;
+    float: left;
+    overflow: hidden;
+    margin-left: 44px;
+    color: #333;
+}
+
+.qds_c_m_title {
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.qds_c_m_title span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.qds_c_m_content ul {
+    margin: 10px 0;
+}
+
+.qds_c_m_content li {
+    line-height: 34px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.qds_c_m_content li a {
+    color: #333;
+}
+
+.qds_c_m_content label {
+    color: #999;
+}
+
+.banner_link {
+    position: absolute;
+    bottom: 90px;
+    width: 200px;
+    height: 68px;
+    display: block;
+    cursor: pointer;
+}
+
+.banner_link_l {
+    left: 504px;
+}
+
+.banner_link_r {
+    left: 610px;
+}
+
+.qds_title {
+    text-align: center;
+    color: #333;
+    margin: 30px 0 30px 0;
+}
+
+.qds_title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.qds_title h2 strong {
+    color: #f14b4b;
+}
+
+.qds_title .small_title {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.qds_m {
+    overflow: hidden;
+}
+
+.qds_b_content li {
+    float: left;
+    width: 400px;
+    height: 195px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.qds_b_content li:hover {
+    background: #fcfcfc;
+    box-shadow: 0px 10px 20px #e0dfdf;
+}
+
+.qds_b_content li:nth-child(3n) {
+    border-right: 0;
+}
+
+.qds_b_content li.no_bottom_border {
+    border-bottom: 0;
+}
+
+.qds_b_content li .big_text {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.qds_b_content li .small_text {
+    color: #999;
+}
+
+.qds_b_content li.last {
+    padding: 0;
+}
+
+.qds_b_content li.last .big_text {
+    padding: 0;
+    line-height: 195px;
+}
+
+.qds_d_m {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+
+.qds_d_m .img_box {
+    height: 142px;
+}
+
+.qds_d_m .big_text {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 2.4;
+    margin-top: 20px;
+}
+
+.qds_d_m .middle_text {
+    color: #ff0000;
+    font-size: 16px;
+    line-height: 2.4;
+    font-weight: 700;
+}
+
+.qds_d_m .small_text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.qds_e {
+    background: #f8f8f8;
+    padding-bottom: 50px;
+}
+
+.qds_d, .qds_f {
+    padding-bottom: 50px;
+}
+
+.btn_group {
+    text-align: center;
+}
+
+.btn {
+    height: 48px;
+    line-height: 48px;
+    background: #fff;
+    color: #f24d4d;
+    padding: 0 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px #d14747;
+}
+
+.btn_red {
+    background: #f24d4d;
+    color: #fff;
+    box-shadow: 0px 5px 10px #dad8d9;
+}
+
+.qds_g {
+    height: 130px;
+    background: #fb5e5e;
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.qds_g .warp {
+    position: relative;
+}
+
+.qds_g .big_text {
+    color: #ffd618;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.qds_g .small_text {
+    font-size: 18px;
+}
+
+.qds_g .btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -24px;
+}
+
+.qds_h {
+    background: #f6f6f6;
+    padding: 50px 0;
+}
+
+.qds_h_m_img {
+    width: 190px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.qds_h_m_img p {
+    line-height: 2.2;
+}
+
+.qds_h_m {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.qds_h_m .qds_title {
+    margin-bottom: 30px;
+}
+
+.qds_h_m .qds_title h2 {
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.qds_h_m_l {
+    border-right: 1px solid #cecece;
+}
+
+.qds_b .qds_title {
+    margin-bottom: 20px;
+}
+
+.bjgary {
+    background: #f7f8fa;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+ul.add_items {
+    border-radius: 30px;
+    border: 1px solid #dddddd;
+    width: 806px;
+    margin: 10px auto;
+}
+
+ul.add_items li.active {
+    background: #f15a5a;
+    color: #fff;
+}
+
+ul.add_items li {
+    text-align: center;
+    float: left;
+    height: 50px;
+    display: inline;
+    line-height: 50px;
+    border-right: 1px solid #dddddd;
+    cursor: pointer;
+    width: 133.3px;
+    font-size: 14px;
+}
+
+.hide {
+    display: none;
+}
+
+.mszx {
+    display: block;
+    width: 242px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    background: #e8274b;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.blankmszx {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+</style>
+<div class="nav_banner">
+    <div class="warp" style="position:relative;height:480px;">
+        <a href="http://pt.fanwe.cn/Public/login" target="_blank" class="banner_link banner_link_l"></a>
+    </div>
+</div>
+<div class="qds_a qds_m">
+    <div class="warp">
+        <div class="qds_title">
+            <h2>什么是<strong>识微社区o2o系统？</strong></h2>
+            <div class="small_title">
+                <span>识微社区o2o系统是一款基于社区，<b>涵盖社区物业、门禁、缴费、日常消费、上门o2o、社区社交等</b>最贴近社区居民需求的o2o应用系统！<br>它可以实现独立名称，独立风格，独立运营，为您打造属于您自己的社区O2O平台。</span>
+            </div>
+        </div>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o1.png"/>
+    </div>
+</div>
+<div class="qds_a qds_m bjgary">
+    <div class="warp">
+        <div class="qds_title">
+            <h2>识微一体化社区O2O体系<strong>多个端口满足不同角色使用需求</strong></h2>
+            <div class="small_title">
+                <span>一套系统囊括用户、物业、加盟商家、多级代理、平台运营者多个关系链条，不同使用角色各自拥有独立的管理后台，<br>所有用户、数据、资金沉淀在你的平台上，实现用户、服务人员、商家、资金流水全掌控</span>
+            </div>
+        </div>
+        <ul class="overflow add_items" id="add_items">
+            <li class="active" rel="1">用户</li>
+            <li rel="2">配送/服务人员</li>
+            <li rel="3">商家</li>
+            <li rel="4">社区物业</li>
+            <li rel="5">多级代理商</li>
+            <li rel="6">平台运营商</li>
+        </ul>
+        <div class="tab-change" rel="1"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_21.jpg"/></div>
+        <div class="tab-change hide" rel="2"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_22.jpg"/></div>
+        <div class="tab-change hide" rel="3"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_23.jpg"/></div>
+        <div class="tab-change hide" rel="4"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_24.jpg"/></div>
+        <div class="tab-change hide" rel="5"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_25.jpg"/></div>
+        <div class="tab-change hide" rel="6"><img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_26.jpg"/></div>
+    </div>
+</div>
+<div class="qds_a qds_m">
+    <div class="warp">
+        <div class="qds_title">
+            <h2>识微社区O2O系统<strong>核心方案</strong></h2>
+        </div>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_01.jpg"/>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_02.jpg"/>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_03.jpg"/>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_04.jpg"/>
+    </div>
+</div>
+<div class="qds_a qds_m bjgary">
+    <div class="warp">
+        <div class="qds_title">
+            <h2>用户声音</h2>
+        </div>
+        <img src="app/Tpl/new/coupon/images/sqo2o/sqo2o_41.jpg"/>
+    </div>
+</div>
+<div class="qds_c qds_m">
+    <div class="warp">
+        <div class="qds_title">
+            <h2>识微社区O2O<strong>最专业的营销型社区O2O系统</strong></h2>
+            <div class="small_title">
+                <span>我们不断进步的脚步，是为了给您带来最好的服务</span>
+            </div>
+            <a class="mszx" target="_blank" id="mszxid"
+               href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes">马上咨询</a>
+            <div class="blankmszx"></div>
+        </div>
+        <!--新闻资讯-->
+        <!--<div class="qds_c_m_box clearfix">-->
+            <!--<div class="qds_c_m">-->
+                <!--<div class="qds_c_m_title">-->
+                    <!--<span>识微动态</span>-->
+                <!--</div>-->
+                <!--<div class="qds_c_m_content">-->
+                    <!--<ul>-->
+                        <!--<li>-->
+                            <!--<label>[2017-05-02]</label>&nbsp;-->
+                            <!--<a href="news/976.html" title="开工了，我们继续约！" target="_blank">开工了，我们继续约！</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-27]</label>&nbsp;-->
+                            <!--<a href="news/971.html" title="五一放假通知！" target="_blank">五一放假通知！</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-21]</label>&nbsp;-->
+                            <!--<a href="news/874.html" title="应邀腾讯云解决方案推荐会，识微领航直播+行业新起点" target="_blank">应邀腾讯云解决方案推荐会，识微领航直播+行业新起点</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="qds_c_m">-->
+                <!--<div class="qds_c_m_title">-->
+                    <!--<span>产品动态</span>-->
+                <!--</div>-->
+                <!--<div class="qds_c_m_content">-->
+                    <!--<ul>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-25]</label>&nbsp;-->
+                            <!--<a href="news/969.html" title="功能说明-【识微城市O2O】优质功能大解析——商户资料修改设置" target="_blank">功能说明-【识微城市O2O】优质功能大解析——商户资料修改设置</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-25]</label>&nbsp;-->
+                            <!--<a href="news/963.html" title="功能说明-【识微城市O2O】新增商户资料+新增门店，解放你的手指操作" target="_blank">功能说明-【识微城市O2O】新增商户资料+新增门店，解放你的手指操作</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-20]</label>&nbsp;-->
+                            <!--<a href="news/957.html" title="我说诚意爆表的功能优化更新来袭，你信吗？！"-->
+                               <!--target="_blank">我说诚意爆表的功能优化更新来袭，你信吗？！</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="qds_c_m">-->
+                <!--<div class="qds_c_m_title">-->
+                    <!--<span>最新动态</span>-->
+                <!--</div>-->
+                <!--<div class="qds_c_m_content">-->
+                    <!--<ul>-->
+                        <!--<li>-->
+                            <!--<label>[2017-04-20]</label>&nbsp;-->
+                            <!--<a href="news/826.html" title="社区O2O运营没思路？看万科保利龙湖等地产大佬怎么玩！" target="_blank">社区O2O运营没思路？看万科保利龙湖等地产大佬怎么玩！</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-03-06]</label>&nbsp;-->
+                            <!--<a href="news/803.html" title="智能门禁：让你的社区O2O平台一招变活跃"-->
+                               <!--target="_blank">智能门禁：让你的社区O2O平台一招变活跃</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<label>[2017-02-28]</label>&nbsp;-->
+                            <!--<a href="news/789.html" title="讲真，大热的社区O2O到底怎么做才是正确姿势？" target="_blank">讲真，大热的社区O2O到底怎么做才是正确姿势？</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--</div>-->
+</div>
+<div class="ftw">
+    <div id="ftbox">
+        <div id="ft">
+            <dl class="f_1 dl1">
+                <dt class="end_1">
+                    <img src="app/Tpl/new/coupon/images/end_1.png"/>
+                <div class="cpn_name">
+                    合肥识微数字科技有限公司
+                </div>
+                </dt>
+            </dl>
+            <dl class="f_1 dl2">
+                <dt class="end_2">
+                <p class="_link">服务热线</p>
+                <p class="lianxi_1">186-5519-3319</p>
+                <p class="shouqian"><span>售前咨询（09:00-18:00）</span></p>
+                </dt>
+            </dl>
+            <dl class="f_1 dl3">
+                <div class="_link_1">
+                    <p class="shouqian footqq"><span>企业QQ：1536300500</span></p>
+                    <p class="shouqian footemail"><span>企业邮箱：Alex@seedweet.com</span></p>
+                    <p class="shouqian footadd"><span>合肥市望江西路5089号先进技术研究院711室</span></p>
+                </div>
+            </dl>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="ftbox2">
+        <div class="box">
+            <p>
+                ©SEEDWEET 2013-2017&nbsp;合肥识微数字科技有限公司&nbsp; 版权所有&nbsp;皖ICP备10015968号-6
+                <script type="text/javascript">//var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                //document.write(unescape("%3Cspan id='cnzz_stat_icon_1257894373'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257894373' type='text/javascript'%3E%3C/script%3E"));</script>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="winbox">
+    <div class="pop-consult-box" pop-consult="box">
+        <a href="javascript:;" class="close-btn" close-btn="btn"></a>
+        <div class="rel" style="width:100%;">
+            <table>
+                <thead>
+                <tr>
+                    <td colspan="2">了解更多，敬请垂询 186-5519-3319</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="t-center">
+                    <td>
+                        <div class="tbody-l baidu-call">
+                            <input id="callDialogPhone" class="baidu-call-phone" type="text" name="callDialogPhone"
+                                   value="" placeholder="输入您的电话号码">
+                            <a href="javascript:;" id="callBtn" class="btn5 baidu-call-btn">立即免费通话</a>
+                            <div class="blank15"></div>
+                        </div>
+                    </td>
+                    <td class="t-left">
+                        <label>您还可以</label>
+                        <a target="_blank" id="qqbtn1"
+                           href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" class="btn7">
+                            <span>QQ咨询</span>
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#qqbtn6').live('click', function () {
+            $(".yyggg").css("display", "none");
+        });
+    });
+</script>
+<div class="float-box simple" float-box="box" style="bottom: 50px; right: 20px;">
+    <div class="yyggg">
+        <a id="qqbtn7" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes"
+           title="了解详情"></a>
+        <a id="qqbtn6" href="javascript:void(0);" title="关闭"></a>
+    </div>
+    <div class="float-box-c baidu-call f_r" style="_width:153px;*width:153px;" id="kfButtons">
+        <div class="contact-box">
+            <a href="javascript:void(0);" class="close-btn" close-btn="btn"></a>
+            <label>186-5519-3319</label>
+            <input id="callPhone" class="baidu-call-phone" type="text" name="callPhone" value=""
+                   placeholder="请输入您的电话号码">
+        </div>
+        <span class="btn-1 baidu-call-btn" id="pubCallButton">
+<a href="javascript:void(0);" id="pubCallButton1"></a>
+</span>
+    </div>
+    <div class="blank"></div>
+    <span class="btn-2">
+        <a id="qqbtn2" target="_blank"
+                           href="http://wpa.qq.com/msgrd?v=3&uin=1536300500&site=qq&menu=yes" title="在线咨询"></a></span>
+    <div class="blank"></div>
+    <span class="btn-3">
+<a alt="点我关掉" href="javascript:void(0);">
+<img src="app/Tpl/new/coupon/images/wx.jpg"></a>
+</span>
+    <div class="blank"></div>
+    <span class="gotot" backtop="box" style="display: none;">
+<a href="javascript:;"></a>
+</span>
+</div>
+
+</body>
+</html>

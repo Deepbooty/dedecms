@@ -1,0 +1,79 @@
+.nav_banner {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    height: 430px;
+    background: url("../images/pintuanzt/banner.jpg") no-repeat center 0;
+}
+.pintuanzt_m{
+	background:#fff;
+	color:#333;
+	padding:40px 0;
+	overflow:hidden;
+}
+.pintuanzt_m_1{
+	background:#ccfbf0;
+}
+.pintuanzt_m .pintuanzt_m_l,.pintuanzt_m .pintuanzt_m_r{
+	width:50%;
+	float: left;
+}
+.pintuanzt_m .article_title{margin-bottom:20px;}
+.pintuanzt_m h3{
+	font-size:30px;
+	font-weight:700;
+	line-height:1.5;
+}
+.pintuanzt_m .small{
+	font-size:20px;
+}
+.article{
+	padding:30px 0;
+	overflow:hidden;
+}
+.article_list li{
+	position:relative;
+	line-height:2.5;
+	padding-left:15px;
+}
+.article_list li:before{
+	position:absolute;
+	top:15px;
+	left:0;
+	content:'';
+	display:block;
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background:#dbdbdb;
+}
+.pintuanzt_m img{padding-left:88px;}
+.pintuanzt_m .article{padding:30px 88px 30px 0;}
+
+.pintuanzt_m_1 .pintuanzt_m_r{text-align:right;}
+.pintuanzt_m_1 img{padding:0;padding-right:88px;}
+.pintuanzt_m_1 .article{padding:30px 0 30px 44px;}
+
+.bottom_btn{
+	padding:50px 0;
+	overflow:hidden;
+	background:#a2f7e2;
+	text-align:center;
+}
+.btn{
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	display:inline-block;
+	color:#fff;
+	font-size:18px;
+	border-radius:3px;
+	margin:0 15px;
+}
+.btn_blue{
+	background:#2672d1;
+}
+.btn_green{
+	background:#42c07e;
+}

@@ -1,0 +1,336 @@
+@CHARSET "UTF-8";
+
+
+.mr0{margin-right: 0!important;}
+
+.function-tit{
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 42px;
+	text-align: center;
+}
+
+.function-banner{
+	width: 100%;
+	height: 559px;
+	text-align: center;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+.function-banner .slide_page{
+	width: 100%;
+	height: 559px;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-size: cover;
+	display: none;
+}
+
+.function-banner .page_one{
+	background: url("../../images/zb/youxizhibo.jpg") center 0 no-repeat;
+}
+.function-banner .page_three{
+	background: url("../../images/zb/function_banner.jpg") center 0 no-repeat;
+}
+.function-banner .page_four{
+	background: url("../../images/zb/function_banner2.jpg") center 0 no-repeat;
+}
+.pagination{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -40px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 20px;
+}
+.pagination span{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	vertical-align: middle;
+	margin: 0 4px;
+	cursor: pointer;
+}
+.pagination span.active{
+	background: #00a1ff;
+}
+
+.function-banner h1{
+	position: absolute;
+	width: 100%;
+	top: 235px;
+	left: 0;
+	font-weight: normal;
+	text-align: center;
+	font-size: 38px;
+	line-height: 40px;
+	animation: scrollTop 1s linear;
+	animation-fill-mode: forwards;
+}
+
+.function-banner h3{
+	position: absolute;
+	width: 100%;
+	top: 297px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 24px;
+	opacity: .7;
+	animation: scrolltop1 1s linear;
+	animation-fill-mode: forwards;
+}
+
+.function-banner h2{
+	position: absolute;
+	width: 100%;
+	top: 383px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 32px;
+	animation: scrollBtm 1s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes scrollTop {
+	from{
+		top: 185px;
+		opacity: 0;
+	}
+	to{
+		top: 235px;
+		opacity: 1;
+	}
+}
+@keyframes scrolltop1 {
+	from{
+		top: 235px;
+		opacity: 0;
+	}
+	to{
+		top: 297px;
+		opacity: 0.7;
+	}
+}
+@keyframes scrollBtm {
+	from{
+		top: 435px;
+		opacity: 0;
+	}
+	to{
+		top: 383px;
+		opacity: 1;
+	}
+}
+
+.unique-function{
+	width: 100%;
+	height: 863px;
+	background: url("../../images/zb/unique-function.jpg") center 0 no-repeat;
+}
+
+.unique-function .function-tit{
+	padding-top: 44px;
+	color: #333;
+}
+
+.base-function{
+	width: 100%;
+	height: 1001px;
+	background: url("../../images/zb/base-function.jpg") center 0 no-repeat;
+}
+
+.base-function .function-tit{
+	padding-top: 66px;
+	color: #fff;
+}
+
+.base-function .base-function-list{
+	margin-top: 60px;
+}
+
+.base-function .base-function-list li{
+	width: 255px;
+	height: 123px;
+	float: left;
+	margin: 0 20px 30px 0;
+	padding: 0 0 0 30px;
+	background: #e7e7e7;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.base-function .base-icon{
+	display: block;
+	width: 50px;
+	height: 123px;
+	float: left;
+	margin-right: 24px;
+	background: url("../../images/zb/base-icon-list.png") 0 center no-repeat;
+}
+
+.base-function .icon-1{
+	background-position: 0 center;
+}
+
+.base-function .icon-2{
+	background-position: -50px center;
+}
+
+.base-function .icon-3{
+	background-position: -100px center;
+}
+
+.base-function .icon-4{
+	background-position: -150px center;
+}
+
+.base-function .icon-5{
+	background-position: -199px center;
+}
+
+.base-function .icon-6{
+	background-position: -249px center;
+}
+
+.base-function .icon-7{
+	background-position: -300px center;
+}
+
+.base-function .icon-8{
+	background-position: -350px center;
+}
+
+.base-function .icon-9{
+	background-position: -399px center;
+}
+
+.base-function .icon-10{
+	background-position: -449px center;
+}
+
+.base-function .icon-11{
+	background-position: -750px center;
+}
+
+.base-function .icon-12{
+	width: 54px;
+	background-position: -850px center;
+}
+
+.base-function .icon-13{
+	background-position: -549px center;
+}
+
+.base-function .icon-14{
+	background-position: -599px center;
+}
+
+.base-function .icon-15{
+	background-position: -649px center;
+}
+.base-function .icon-16{
+	background-position: -800px center;
+}
+.base-function .icon-17{
+	background-position: -914px center;
+}
+.base-function .icon-18{
+	background-position: -976px center;
+}
+.base-function .icon-19{
+	background-position: -1030px center;
+}
+
+.base-function .base-function-tit{
+	font-size: 22px;
+	padding-top: 28px;
+	line-height: 22px;
+	color: #000;
+}
+
+.base-function .base-function-con{
+	font-size: 12px;
+	padding-top: 10px;
+	line-height: 22px;
+	color: #646464;
+}
+
+
+.product-advantage{
+	width: 100%;
+	height: 577px;
+	background: #f7f7f7;
+}
+
+.product-advantage .function-tit{
+	padding-top: 62px;
+	color: #333;
+}
+
+.product-advantage .advantage-list{
+	margin-top: 65px;
+}
+
+.product-advantage .advantage-list li{
+	width: 210px;
+	padding: 0 15px;
+	overflow: hidden;
+	float: left;
+}
+
+.product-advantage .advantage-icon{
+	display: block;
+	width: 182px;
+	height: 146px;
+	margin: 0 auto;
+	background: url("../../images/zb/advantage-icon-list.png") no-repeat;
+}
+
+.product-advantage .icon-1{
+	background-position: 0 0;
+}
+
+.product-advantage .icon-2{
+	background-position: -182px 0;
+}
+
+.product-advantage .icon-3{
+	background-position: -364px 0;
+}
+
+.product-advantage .icon-4{
+	background-position: -546px 0;
+}
+
+.product-advantage .icon-5{
+	background-position: -728px 0;
+}
+
+.product-advantage .advantage-tit{
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.product-advantage .advantage-con{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.unique{
+	width: 900px;
+	background: url("../../images/zb/unique-function-list.jpg") center center no-repeat;
+}
+
+
+

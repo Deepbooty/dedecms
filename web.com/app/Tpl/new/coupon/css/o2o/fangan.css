@@ -1,0 +1,237 @@
+.banner{
+	height: 530px;
+	background: url("../../images/o2o/fangan/banner.jpg") no-repeat center top;
+}
+/* deal */
+.o2o-deal{
+	height:1890px;
+}
+.o2o-deal .main-tit{
+	padding:40px 0;
+}
+.o2o-deal .deal-list{
+	width:1240px;
+	margin: 0 auto;
+	height:744px;
+}
+.o2o-deal .deal-list li{
+	width:270px;
+	height:347px;
+	float: left;
+	margin: 0 20px 40px;
+	overflow: hidden;
+	position: relative;
+}
+.o2o-deal .deal-list li:hover{
+	box-shadow:0 0 10px rgba(0, 0, 0, .3);
+}
+.o2o-deal .deal-list .item-hd{
+	display: block;
+	width:270px;
+	height:140px;
+}
+.o2o-deal .deal-list .deal-item-1 .item-hd{
+	background:#5977ba;
+}
+.o2o-deal .deal-list .deal-item-2 .item-hd{
+	background:#69c;
+}
+.o2o-deal .deal-list .deal-item-3 .item-hd{
+	background:#eb4f38;
+}
+.o2o-deal .deal-list .deal-item-4 .item-hd{
+	background:#11cd6e;
+}
+.o2o-deal .deal-list .deal-item-5 .item-hd{
+	background:#f90;
+}
+.o2o-deal .deal-list .deal-item-6 .item-hd{
+	background:#0c9;
+}
+.o2o-deal .deal-list .deal-item-7 .item-hd{
+	background:#96c;
+}
+.o2o-deal .deal-list .deal-item-8 .item-hd{
+	background:#69c;
+}
+.o2o-deal .deal-list .deal-item-9 .item-hd{
+	background:#0c9;
+}
+.o2o-deal .deal-list .deal-item-10 .item-hd{
+	background:#f90;
+}
+.o2o-deal .deal-list .deal-item-11 .item-hd{
+	background:#96c;
+}
+.o2o-deal .deal-list .deal-item-12 .item-hd{
+	background:#69c;
+}
+.o2o-deal .deal-list .deal-item-13 .item-hd{
+	background:#f90;
+}
+.o2o-deal .deal-list .deal-item-14 .item-hd{
+	background:#69c;
+}
+.o2o-deal .deal-list .deal-item-15 .item-hd{
+	background:#eb4f38;
+}
+.o2o-deal .deal-list .deal-item-16 .item-hd{
+	background:#11cd6e;
+}
+.o2o-deal .deal-list .item-hd .deal-item-ico{
+	height:140px;
+	background-image:url("../../images/o2o/fangan/o2o-deal-ico.png");
+	background-repeat:no-repeat;
+}
+.o2o-deal .deal-list .deal-item-2 .deal-item-ico{
+	background-position:-270px 0;
+}
+.o2o-deal .deal-list .deal-item-3 .deal-item-ico{
+	background-position:-540px 0;
+}
+.o2o-deal .deal-list .deal-item-4 .deal-item-ico{
+	background-position:-810px 0;
+}
+.o2o-deal .deal-list .deal-item-5 .deal-item-ico{
+	background-position:-1080px 0;
+}
+.o2o-deal .deal-list .deal-item-6 .deal-item-ico{
+	background-position:-1350px 0;
+}
+.o2o-deal .deal-list .deal-item-7 .deal-item-ico{
+	background-position:-1620px 0;
+}
+.o2o-deal .deal-list .deal-item-8 .deal-item-ico{
+	background-position:-1890px 0;
+}
+.o2o-deal .deal-list .deal-item-9 .deal-item-ico{
+	background-position:-2160px 0;
+}
+.o2o-deal .deal-list .deal-item-10 .deal-item-ico{
+	background-position:-2430px 0;
+}
+.o2o-deal .deal-list .deal-item-11 .deal-item-ico{
+	background-position:-2700px 0;
+}
+.o2o-deal .deal-list .deal-item-12 .deal-item-ico{
+	background-position:-2970px 0;
+}
+.o2o-deal .deal-list .deal-item-13 .deal-item-ico{
+	background-position:-3240px 0;
+}
+.o2o-deal .deal-list .deal-item-14 .deal-item-ico{
+	background-position:-3510px 0;
+}
+.o2o-deal .deal-list .deal-item-15 .deal-item-ico{
+	background-position:-3780px 0;
+}
+.o2o-deal .deal-list .deal-item-16 .deal-item-ico{
+	background-position:-4050px 0;
+}
+.o2o-deal .deal-list .item-bd{
+	border:1px solid #f5f5f5;
+	border-top: 0;
+	height:203px;
+	padding-top: 3px;
+}
+.o2o-deal .deal-list .deal-tit{
+	display: block;
+	line-height: 58px;
+	font-size:22px;
+	color:#000;
+	text-align: center;
+}
+.o2o-deal .deal-list .deal-tit:hover{
+	color:#06c;
+}
+.o2o-deal .deal-list .deal-line{
+	width:30px;
+	height: 4px;
+	margin: 0 auto;
+	background:#06c;
+}
+.o2o-deal .deal-list .deal-info{
+	line-height: 26px;
+	padding:15px 15px 0;
+	font-size:14px;
+	color:#666;
+}
+.o2o-deal .deal-list .deal-btn{
+	height:75px;
+	width:270px;
+	position: absolute;
+	left: 0;
+	bottom: -100px;
+	-webkit-transition: bottom .25s ease;
+	   -moz-transition: bottom .25s ease;
+	    -ms-transition: bottom .25s ease;
+	     -o-transition: bottom .25s ease;
+	        transition: bottom .25s ease;
+}
+.o2o-deal .deal-list li:hover .deal-btn{
+	bottom: 0;
+}
+.o2o-deal .deal-list .deal-btn .mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:1;
+	background:#06c;
+	height:75px;
+	width:270px;
+	filter:alpha(opacity=80);
+	      -moz-opacity:0.8;
+	      -khtml-opacity: 0.8;
+	      opacity: 0.8;
+}
+.o2o-deal .deal-list .deal-btn a{
+	position: relative;
+	z-index: 2;
+	width:135px;
+	float: left;
+	display: block;
+	height:75px;
+	text-align: center;
+}
+.o2o-deal .deal-list .deal-btn a p{
+	line-height: 26px;
+	color:#fff;
+	font-size:14px;
+}
+.o2o-deal .deal-list .deal-btn-line{
+	width:2px;
+	height:47px;
+	position: absolute;
+	left: 129px;
+	top: 14px;
+}
+.o2o-deal .deal-list .left-line{
+	width:1px;
+	height:47px;
+	float: left;
+	background:#039;
+	filter:alpha(opacity=40);
+	      -moz-opacity:0.4;
+	      -khtml-opacity: 0.4;
+	      opacity: 0.4;
+}
+.o2o-deal .deal-list .right-line{
+	width:1px;
+	height:47px;
+	float: left;
+	background:#fff;
+	filter:alpha(opacity=40);
+	      -moz-opacity:0.4;
+	      -khtml-opacity: 0.4;
+	      opacity: 0.4;
+}
+.o2o-deal .deal-list .deal-btn-ico{
+	width:135px;
+	height:30px;
+	margin-top: 12px;
+	background-image:url("../../images/o2o/index/dela-btn-ico.png");
+	background-repeat:no-repeat;
+}
+.o2o-deal .deal-list .deal-consult .deal-btn-ico{
+	background-position:-135px 0;
+}

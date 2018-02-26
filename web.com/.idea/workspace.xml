@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c8ceb4e-d497-4d1d-957a-d4f8ced9e2fe" name="默认的" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="1743" column="16" lean-forward="false" selection-start-line="1743" selection-start-column="16" selection-end-line="1743" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1504161906351" expanded="true" signature="1640:1837" ph="..." />
+                <marker date="1504161906351" expanded="true" signature="1664:1822" ph="{...}" />
+                <marker date="1504161906351" expanded="true" signature="1694:1812" ph="{...}" />
+                <marker date="1504161906351" expanded="true" signature="1739:1796" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qzc.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qzc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="574" column="37" lean-forward="true" selection-start-line="574" selection-start-column="37" selection-end-line="574" selection-end-column="37" />
+              <folding>
+                <marker date="1504161925710" expanded="true" signature="1875:2072" ph="..." />
+                <marker date="1504161925710" expanded="true" signature="1899:2057" ph="{...}" />
+                <marker date="1504161925710" expanded="true" signature="1929:2047" ph="{...}" />
+                <marker date="1504161925710" expanded="true" signature="1974:2031" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_us.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="506" column="55" lean-forward="false" selection-start-line="506" selection-start-column="55" selection-end-line="506" selection-end-column="55" />
+              <folding>
+                <marker date="1504159781232" expanded="true" signature="1666:1863" ph="..." />
+                <marker date="1504159781232" expanded="true" signature="1690:1848" ph="{...}" />
+                <marker date="1504159781232" expanded="true" signature="1720:1838" ph="{...}" />
+                <marker date="1504159781232" expanded="true" signature="1765:1822" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jr.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="435" column="54" lean-forward="true" selection-start-line="435" selection-start-column="54" selection-end-line="435" selection-end-column="77" />
+              <folding>
+                <marker date="1504159781202" expanded="true" signature="1707:1904" ph="..." />
+                <marker date="1504159781202" expanded="true" signature="1731:1889" ph="{...}" />
+                <marker date="1504159781202" expanded="true" signature="1761:1879" ph="{...}" />
+                <marker date="1504159781202" expanded="true" signature="1806:1863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_cate-&amp;p=1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article_cate-&amp;p=1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="496" column="21" lean-forward="true" selection-start-line="496" selection-start-column="21" selection-end-line="496" selection-end-column="21" />
+              <folding>
+                <marker date="1504159781035" expanded="true" signature="1668:1865" ph="..." />
+                <marker date="1504159781035" expanded="true" signature="1692:1850" ph="{...}" />
+                <marker date="1504159781035" expanded="true" signature="1722:1840" ph="{...}" />
+                <marker date="1504159781035" expanded="true" signature="1767:1824" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>......</find>
+      <find>识微O2O系统开发动态</find>
+      <find>识微快</find>
+      <find>识微动态</find>
+      <find>资讯中心</find>
+      <find>http://wpa.qq.com/msgrd?v=3&amp;uin=1536300500&amp;site=qq&amp;menu=yes</find>
+      <find>你可能不知道，超棒的内容变现方式都在这里</find>
+      <find>识微直播产品动态</find>
+      <find>新闻资讯</find>
+      <find>新闻公告，追踪最新资讯</find>
+      <find>识微O2O产品动态</find>
+      <find>八年软件研发，百人专业团队</find>
+      <find>识微快讯</find>
+      <find>点击咨询</find>
+      <find>zhongbu</find>
+      <find>zhongb</find>
+      <find>zhong</find>
+      <find>zhon</find>
+      <find>zho</find>
+      <find>zh</find>
+      <find>总部di</find>
+      <find>总部地址</find>
+      <find>合肥市望江西路5089号先进技术研究院716室</find>
+      <find>zo</find>
+      <find>zongbu</find>
+      <find>总部</find>
+      <find>7</find>
+      <find>716</find>
+      <find>71</find>
+      <find>合肥市望江西路5089号先进技术研究院</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>合肥市望江西路5089号先进技术研究院711室</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/news/hangyedongtai.html" />
+        <option value="$PROJECT_DIR$/news/seedweetKuaixu.html" />
+        <option value="$PROJECT_DIR$/news/240.html" />
+        <option value="$PROJECT_DIR$/news/881.html" />
+        <option value="$PROJECT_DIR$/news/chuangyedasai.html" />
+        <option value="$PROJECT_DIR$/news/seedweetKuaixu-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/zhuanti-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/O2Ohangyedongtai-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/seedweetO2Ochanpindongtai-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/969.html" />
+        <option value="$PROJECT_DIR$/news/264.html" />
+        <option value="$PROJECT_DIR$/article_cate.html" />
+        <option value="$PROJECT_DIR$/news/964.html" />
+        <option value="$PROJECT_DIR$/news/seedweetO2Ochanpindongtai.html" />
+        <option value="$PROJECT_DIR$/news/850.html" />
+        <option value="$PROJECT_DIR$/news/976.html" />
+        <option value="$PROJECT_DIR$/news/neirongbianxian-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/zhibohangye.html" />
+        <option value="$PROJECT_DIR$/news/pingtuan.html" />
+        <option value="$PROJECT_DIR$/news/chanpindongtai-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/news/965.html" />
+        <option value="$PROJECT_DIR$/app/Tpl/new/coupon/css/zhibo/public.css" />
+        <option value="$PROJECT_DIR$/subsite/1.seedweet/app/Tpl/new/coupon/css/public.css" />
+        <option value="$PROJECT_DIR$/app/Tpl/new/coupon/css/public.css" />
+        <option value="$PROJECT_DIR$/subsite/o2o.seedweet/progress.html" />
+        <option value="$PROJECT_DIR$/zb_education.html" />
+        <option value="$PROJECT_DIR$/zb_games.html" />
+        <option value="$PROJECT_DIR$/zhibo.html" />
+        <option value="$PROJECT_DIR$/o2o_shangcheng.html" />
+        <option value="$PROJECT_DIR$/o2o_shuiguo.html" />
+        <option value="$PROJECT_DIR$/o2o_wuye.html" />
+        <option value="$PROJECT_DIR$/o2o_b2b2c.html" />
+        <option value="$PROJECT_DIR$/o2o_meirong.html" />
+        <option value="$PROJECT_DIR$/o2o_jiazheng.html" />
+        <option value="$PROJECT_DIR$/o2o_weixiu.html" />
+        <option value="$PROJECT_DIR$/o2o.html" />
+        <option value="$PROJECT_DIR$/sqo2o.html" />
+        <option value="$PROJECT_DIR$/subsite/o2o.seedweet/index.html" />
+        <option value="$PROJECT_DIR$/mendian.html" />
+        <option value="$PROJECT_DIR$/neirongfufei.html" />
+        <option value="$PROJECT_DIR$/zb_yuyin.html" />
+        <option value="$PROJECT_DIR$/subsite/zc.seedweet/index.html" />
+        <option value="$PROJECT_DIR$/subsite/p2p.seedweet/index.html" />
+        <option value="$PROJECT_DIR$/wds.html" />
+        <option value="$PROJECT_DIR$/fenxiao.html" />
+        <option value="$PROJECT_DIR$/zb_plan.html" />
+        <option value="$PROJECT_DIR$/zb_shopping.html" />
+        <option value="$PROJECT_DIR$/contact_us.html" />
+        <option value="$PROJECT_DIR$/article_cate-&amp;p=1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/qzc.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1858" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p2p.seedweet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.seedweet.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/kejian" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c8ceb4e-d497-4d1d-957a-d4f8ced9e2fe" name="默认的" comment="" />
+      <created>1499741429259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499741429259</updated>
+      <workItem from="1499741430510" duration="10478000" />
+      <workItem from="1499822004151" duration="15390000" />
+      <workItem from="1499848995714" duration="1239000" />
+      <workItem from="1500531292983" duration="3833000" />
+      <workItem from="1500600340944" duration="104000" />
+      <workItem from="1500604232454" duration="13138000" />
+      <workItem from="1500858997159" duration="408000" />
+      <workItem from="1501119243728" duration="1202000" />
+      <workItem from="1501223887323" duration="1250000" />
+      <workItem from="1501491859318" duration="607000" />
+      <workItem from="1501550671863" duration="618000" />
+      <workItem from="1504159031028" duration="3287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51554000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1858" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14115092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/news/O2Ohangyedongtai-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/seedweetO2Ochanpindongtai-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/969.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="49" lean-forward="true" selection-start-line="371" selection-start-column="49" selection-end-line="371" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/264.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="49" lean-forward="true" selection-start-line="371" selection-start-column="49" selection-end-line="371" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_cate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="370" column="35" lean-forward="true" selection-start-line="370" selection-start-column="35" selection-end-line="370" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/964.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="49" lean-forward="true" selection-start-line="371" selection-start-column="49" selection-end-line="371" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/seedweetO2Ochanpindongtai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/850.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="49" lean-forward="true" selection-start-line="371" selection-start-column="49" selection-end-line="371" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/976.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="49" lean-forward="true" selection-start-line="371" selection-start-column="49" selection-end-line="371" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/neirongbianxian-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/zhuanti-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="370" column="4" lean-forward="false" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/zhibohangye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/pingtuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/965.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="375" column="33" lean-forward="true" selection-start-line="375" selection-start-column="33" selection-end-line="375" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/chanpindongtai-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="371" column="35" lean-forward="true" selection-start-line="371" selection-start-column="35" selection-end-line="371" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/new/coupon/css/zhibo/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="1033" column="9" lean-forward="true" selection-start-line="1033" selection-start-column="9" selection-end-line="1033" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/1.seedweet/app/Tpl/new/coupon/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="1032" column="32" lean-forward="true" selection-start-line="1032" selection-start-column="32" selection-end-line="1032" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/new/coupon/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="1444" column="15" lean-forward="false" selection-start-line="1444" selection-start-column="15" selection-end-line="1444" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/o2o.seedweet/progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="250" column="48" lean-forward="false" selection-start-line="250" selection-start-column="48" selection-end-line="250" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="101" column="185" lean-forward="false" selection-start-line="101" selection-start-column="185" selection-end-line="101" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_games.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="110" column="115" lean-forward="false" selection-start-line="110" selection-start-column="115" selection-end-line="110" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_weixiu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="730" column="26" lean-forward="true" selection-start-line="730" selection-start-column="26" selection-end-line="730" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_jiazheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="741" column="65" lean-forward="false" selection-start-line="741" selection-start-column="65" selection-end-line="741" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_meirong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="520" column="12" lean-forward="false" selection-start-line="520" selection-start-column="16" selection-end-line="643" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_b2b2c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="1051" column="12" lean-forward="false" selection-start-line="1051" selection-start-column="16" selection-end-line="1174" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_wuye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="817" column="12" lean-forward="false" selection-start-line="817" selection-start-column="16" selection-end-line="940" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_shuiguo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="897" column="12" lean-forward="false" selection-start-line="897" selection-start-column="16" selection-end-line="1020" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o_shangcheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1076" column="12" lean-forward="false" selection-start-line="1076" selection-start-column="16" selection-end-line="1199" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhibo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="151" column="17" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o2o.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1040" column="0" lean-forward="false" selection-start-line="1040" selection-start-column="4" selection-end-line="1125" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqo2o.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="761" column="8" lean-forward="false" selection-start-line="761" selection-start-column="12" selection-end-line="828" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/o2o.seedweet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="646" column="0" lean-forward="false" selection-start-line="646" selection-start-column="4" selection-end-line="715" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mendian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="856" column="92" lean-forward="false" selection-start-line="856" selection-start-column="33" selection-end-line="856" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neirongfufei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9334">
+          <caret line="359" column="53" lean-forward="false" selection-start-line="359" selection-start-column="53" selection-end-line="359" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_yuyin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19474">
+          <caret line="749" column="13" lean-forward="false" selection-start-line="749" selection-start-column="13" selection-end-line="749" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/zc.seedweet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14170">
+          <caret line="545" column="8" lean-forward="false" selection-start-line="545" selection-start-column="8" selection-end-line="545" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1500626992112" expanded="false" signature="31131:31152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/p2p.seedweet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9464">
+          <caret line="392" column="10" lean-forward="false" selection-start-line="392" selection-start-column="10" selection-end-line="392" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504159781016" expanded="true" signature="1903:2100" ph="..." />
+            <marker date="1504159781016" expanded="true" signature="1927:2085" ph="{...}" />
+            <marker date="1504159781016" expanded="true" signature="1957:2075" ph="{...}" />
+            <marker date="1504159781016" expanded="true" signature="2002:2059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25064">
+          <caret line="964" column="4" lean-forward="false" selection-start-line="964" selection-start-column="8" selection-end-line="1048" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenxiao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27534">
+          <caret line="1059" column="48" lean-forward="false" selection-start-line="1059" selection-start-column="48" selection-end-line="1059" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_plan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5642">
+          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="4" selection-end-line="275" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zb_shopping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15886">
+          <caret line="611" column="10" lean-forward="false" selection-start-line="611" selection-start-column="10" selection-end-line="611" selection-end-column="10" />
+          <folding>
+            <marker date="1504159781077" expanded="true" signature="25771:25945" ph="..." />
+            <marker date="1504159781077" expanded="true" signature="25791:25934" ph="{...}" />
+            <marker date="1504159781077" expanded="true" signature="25817:25928" ph="{...}" />
+            <marker date="1504159781077" expanded="true" signature="25867:25916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <marker date="1504159781541" expanded="true" signature="1693:1890" ph="..." />
+            <marker date="1504159781541" expanded="true" signature="1717:1875" ph="{...}" />
+            <marker date="1504159781541" expanded="true" signature="1747:1865" ph="{...}" />
+            <marker date="1504159781541" expanded="true" signature="1792:1849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subsite/zc.seedweet/index-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="506" column="55" lean-forward="false" selection-start-line="506" selection-start-column="55" selection-end-line="506" selection-end-column="55" />
+          <folding>
+            <marker date="1504159781232" expanded="true" signature="1666:1863" ph="..." />
+            <marker date="1504159781232" expanded="true" signature="1690:1848" ph="{...}" />
+            <marker date="1504159781232" expanded="true" signature="1720:1838" ph="{...}" />
+            <marker date="1504159781232" expanded="true" signature="1765:1822" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="435" column="54" lean-forward="true" selection-start-line="435" selection-start-column="54" selection-end-line="435" selection-end-column="77" />
+          <folding>
+            <marker date="1504159781202" expanded="true" signature="1707:1904" ph="..." />
+            <marker date="1504159781202" expanded="true" signature="1731:1889" ph="{...}" />
+            <marker date="1504159781202" expanded="true" signature="1761:1879" ph="{...}" />
+            <marker date="1504159781202" expanded="true" signature="1806:1863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_cate-&amp;p=1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="496" column="21" lean-forward="true" selection-start-line="496" selection-start-column="21" selection-end-line="496" selection-end-column="21" />
+          <folding>
+            <marker date="1504159781035" expanded="true" signature="1668:1865" ph="..." />
+            <marker date="1504159781035" expanded="true" signature="1692:1850" ph="{...}" />
+            <marker date="1504159781035" expanded="true" signature="1722:1840" ph="{...}" />
+            <marker date="1504159781035" expanded="true" signature="1767:1824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="1743" column="16" lean-forward="false" selection-start-line="1743" selection-start-column="16" selection-end-line="1743" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504161906351" expanded="true" signature="1640:1837" ph="..." />
+            <marker date="1504161906351" expanded="true" signature="1664:1822" ph="{...}" />
+            <marker date="1504161906351" expanded="true" signature="1694:1812" ph="{...}" />
+            <marker date="1504161906351" expanded="true" signature="1739:1796" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qzc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="574" column="37" lean-forward="true" selection-start-line="574" selection-start-column="37" selection-end-line="574" selection-end-column="37" />
+          <folding>
+            <marker date="1504161925710" expanded="true" signature="1875:2072" ph="..." />
+            <marker date="1504161925710" expanded="true" signature="1899:2057" ph="{...}" />
+            <marker date="1504161925710" expanded="true" signature="1929:2047" ph="{...}" />
+            <marker date="1504161925710" expanded="true" signature="1974:2031" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

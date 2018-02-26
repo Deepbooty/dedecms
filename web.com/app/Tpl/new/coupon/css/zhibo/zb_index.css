@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.section1 {
+	    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.section1 .video{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../../images/zb/acry.jpg") no-repeat center top;
+	background-size: cover;
+}
+.section1  #m_video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: baseline;
+    display: none;
+}
+
+.section1 .video-modal{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+/*	background: url("../../images/zb/cry.jpg") no-repeat center top;
+	background-size: cover;*/
+    background-color: rgba(0,0,0,.1);
+}
+
+
+
+.section3{
+	background: #f1faff;
+}
+
+
+
+a.more_link{
+    display: block;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #929699;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+}
+a.more_link:hover{
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    background: #3d78d1;
+    border: 1px solid #3d78d1;
+    color: #FFFFFF;
+}
+
+/*section5结束*/
+
+
+
+/*section8开始*/
+.section8{
+    height: 193px;
+    color: #FFFFFF;
+    background: url("../../images/zhibo/section8_bg.jpg")no-repeat center center;
+}
+.section8 p.tit2{
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.section8 h1{
+    padding: 0px 0 10px;
+    font-weight: bold;
+    color: #fed454;
+    font-size: 36px;
+}
+.section8 a.cli_a{
+    display: block;
+    margin: 0 auto;
+    width: 176px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: rgba(78,86,122,0.6);
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+}
+.section8 a.cli_a:hover{
+    background: rgba(78,86,122,1);
+}
+.section8 h2 {
+    padding: 0px 0 10px;
+    font-weight: bold;
+    color: #fed454;
+    font-size: 36px;
+}
+/*section8结束*/
+.unique{
+    height: 420px;
+    width:1200px;
+    background: url("../../images/zb/section3img.jpg") top center no-repeat;
+}
+
+
+
+

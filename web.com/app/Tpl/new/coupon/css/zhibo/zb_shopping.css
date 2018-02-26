@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner{
+    background: url("../../images/zb/shopping/banner.png") center center no-repeat;
+}
+.btn-consult{
+    border: 2px solid #f4a7b6;
+}
+
+/*----- 鐩存挱鏄槸浠€涔� -----*/
+.m-shuffling{
+    height: auto;
+    background: #fee3e3;
+}
+.iswhat {
+    background: #fff;
+}
+.what {
+    background: url("../../images/zb/shopping/what-bg.png") -16px -42px no-repeat;
+}
+.iswhat .what-list .what-item .what-icon{
+    background: url("../../images/zb/shopping/what-list.png") no-repeat;
+}
+.iswhat .what-list .what-item .what-icon.icon-1{
+    background-position: 0 0;
+}
+.iswhat .what-list .what-item .what-icon.icon-2{
+    background-position: 0 -222px;
+}
+.iswhat .what-list .what-item .what-icon.icon-3{
+    background-position: 0 -444px;
+}
+.iswhat .what-list .what-item .what-icon.icon-4{
+    background-position: 0 -666px;
+}
+.iswhat .what-list .what-item .btn-list .btn-demo{
+    background: #ffa200;
+}
+.iswhat .what-list .what-item .btn-list .consult{
+    color: #ffa200;
+}
+.iswhat .build-way .tit {
+    color: #ffa200;
+}
+
+/*---- 鐗硅壊鍔熻兘 ----*/
+.m-function{
+    background: url("../../images/zb/shopping/function-bg.png") no-repeat;
+}
+.m-function-block .function-bar{
+    background: #bd4041;
+    margin-left: 68px;
+    margin-right: 68px;
+}
+.m-function h2{
+    color: #fff;
+    padding-bottom: 50px;
+}
+.function-list{
+    padding: 45px 0;
+}
+.m-function-block .sub-tit{
+    width: 263px;
+}
+
+/*---- 搴旂敤鍦烘櫙 ----*/
+.m-scene-block .icon-scene{
+    background: url("../../images/zb/shopping/scene-list.png") no-repeat;
+}
+.m-scene-block .scene-1{
+    background-position: 0 0;
+}
+.m-scene-block .scene-2{
+    background-position: 4px -81px
+}
+.m-scene-block .scene-3{
+    background-position: 4px -165px;
+}
+.m-scene-block .scene-4{
+    background-position: 2px -250px;
+}
+
+/*---- section 6 ----*/
+.section6{
+    width: 100%;
+    height: 563px;
+    background: url(../../images/zhibo/section6_bg.jpg) no-repeat center center;
+}
+.section6 .sec6_box{
+    margin-right: -5px;
+    margin-top: 100px;
+}
+.section6 .sec6_box li span.sec_icon{
+    display: block;
+    width: 88px;
+    height: 88px;
+    background: url("../../images/zb/shopping/sec6-list.png")no-repeat center;
+    margin: 30px auto 30px;
+}
+.section6 .sec6_box li span.sec_icon1 {
+    background-position: 0 0;
+    *background-position: -6px 6px;
+}
+.section6 .sec6_box li span.sec_icon2{
+    background-position: 0 -94px;
+    *background-position: -7px -89px;
+}
+.section6 .sec6_box li span.sec_icon3{
+    background-position: 0 -184px;
+    *background-position: -6px -188px;
+}
+.section6 .sec6_box li span.sec_icon4{
+    background-position: 0 -279px;
+    *background-position: -6px -284px;
+}
+.section6 .sec6_box li span.sec_icon5{
+    background-position: 0 -383px;
+    *background-position: -6px -395px;
+}
+.section6 .sec6_box li:nth-of-type(5){
+    border-right: none;
+}
+.sec6_box li .pupBox{
+    background: #000;
+    filter: Alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+}
+.sec6_box li:hover .pupBox h3{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+.sec6_box li:hover .pupBox p{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+.choice-tab-item{
+    background:#fff;
+    line-height: 54px;
+    color:#ec5051;
+}
+.choice-tab ul .active{
+    background:#ec5051;
+    color:#fff;
+    border-bottom-color:#ec5051;
+}
+.choice-info .choice-img{
+    background-color: #ec5051;
+}
+.choice-tab-tit {
+    color: #ec5051;
+}
+/*---- AD ----*/
+.AD{
+    background: url("../../images/zb/shopping/AD.png") 0 0 no-repeat;
+}
+
+
+
+

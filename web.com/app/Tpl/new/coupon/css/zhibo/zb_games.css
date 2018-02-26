@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner{
+    background: url("../../images/zb/games/banner.png") center center no-repeat;
+}
+.banner img{
+    margin-top: 60px;
+}
+.btn-consult{
+    border: 2px solid #979cb1;
+}
+
+/*----- 直播是什么 -----*/
+.m-shuffling{
+    height: auto;
+    background: #deeafd;
+}
+
+/*----- section10 -----*/
+.iswhat{
+    width: 100%;
+    height: 600px;
+    background: url("../../images/zb/games/what-bg.png") 50% 40px no-repeat;
+    padding: 30px 0 40px 0;
+    background-color: #fff;
+}
+/*----- 特色功能 -----*/
+.m-function{
+    height: 1000px;
+    background: url("../../images/zb/games/function-bg.png") center center no-repeat;
+}
+.m-function h2{
+    color: #fff;
+    padding-bottom: 50px;
+}
+.function-list{
+    padding: 45px 0;
+}
+.m-function-block .function-bar{
+    background: #297acc;
+    margin-left: 68px;
+    margin-right: 68px;
+}
+.m-function-block .sub-tit{
+    width: 263px;
+}
+
+/*---- 流量变现 ----*/
+.section6{
+    width: 100%;
+    height: 563px;
+    background: url("../../images/zhibo/section6_bg.jpg") no-repeat center center;
+}
+.section6 .sec6_box{
+    margin-right: -5px;
+    margin-top: 30px;
+}
+.sec6_box li .pupBox{
+    background: #000;
+    filter: Alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+}
+.sec6_box li:hover .pupBox h3{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+.sec6_box li:hover .pupBox p{
+    color: #fff;
+    filter: Alpha(opacity=100);
+    -moz-opacity:1;
+    opacity:1;
+}
+.choice-tab-item{
+    background:#fff;
+    line-height: 54px;
+    color:#1d62d9;
+}
+.choice-tab ul .active{
+    background:#1d62d9;
+    color:#fff;
+    border-bottom-color:#1d62d9;
+}
+.choice-info .choice-img{
+    background-color: #1d62d9;
+}
+.choice-tab-tit {
+    color: #1d62d9;
+}
+/*---- AD ----*/
+.AD{
+    background: url("../../images/zb/games/AD.png") 0 0 no-repeat;
+}
+.AD h2{
+    color: #fed454;
+}
+
+
+
+
+
+

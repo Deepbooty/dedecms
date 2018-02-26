@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* ::::: http://m.seedweet.com/app/Tpl/new/wap/css/public.css ::::: */
+
+html { font-size: 24px; -moz-text-size-adjust: none; -moz-user-select: none; font-family: Helvetica,microsoft Yahei,Arial; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+ul, li, dl, dd { list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, button, input, textarea, select, li, div { background: transparent none repeat scroll 0% 0%; outline: medium none; font-family: Helvetica,microsoft Yahei,Arial; }
+img { border: medium none; vertical-align: top; }
+body { min-height: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow-x: hidden; color: rgb(68, 68, 68); }
+input, img { vertical-align: middle; }
+a { text-decoration: none; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+@font-face {
+	font-family: "iconfont";
+	src: url('../iconfont/iconfont.eot') format("embedded-opentype"),
+	url('../iconfont/iconfont.woff') format("woff"),
+	url('../iconfont/iconfont.ttf') format("truetype"),
+	url('../iconfont/iconfont.svg') format("svg");
+}
+.iconfont { font-family: "iconfont" !important; font-size: 16px; font-style: normal; -webkit-text-stroke-width: 0.2px; }
+@media screen and (min-width: 320px) {
+	html { font-size: 24px; }
+	body { font-size: 12px; }
+}
+@media screen and (min-width: 360px) {
+	html { font-size: 24px; }
+	body { font-size: 12px; }
+}
+@media screen and (min-width: 375px) {
+	html { font-size: 25px; }
+	body { font-size: 12px; }
+}
+@media screen and (min-width: 384px) {
+	html { font-size: 25.6px; }
+	body { font-size: 14px; }
+}
+@media screen and (min-width: 400px) {
+	html { font-size: 26.6667px; }
+	body { font-size: 14px; }
+}
+@media screen and (min-width: 414px) {
+	html { font-size: 27.6px; }
+	body { font-size: 14px; }
+}
+@media screen and (min-width: 424px) {
+	html { font-size: 28.2667px; }
+	body { font-size: 14px; }
+}
+@media screen and (min-width: 480px) {
+	html { font-size: 32px; }
+	body { font-size: 15.36px; }
+}
+@media screen and (min-width: 540px) {
+	html { font-size: 36px; }
+	body { font-size: 17.28px; }
+}
+@media screen and (min-width: 720px) {
+	html { font-size: 36px; }
+	body { font-size: 17.28px; }
+}
+@media screen and (min-width: 750px) {
+	html { font-size: 36px; }
+	body { font-size: 17.28px; }
+}
+.el { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.split-line { position: relative; }
+.split-line::after { content: ""; width: 100%; border-top: 1px solid rgb(232, 232, 232); position: absolute; left: 0px; bottom: 0px; transform: scaleY(0.5); transform-origin: 0px 100% 0px; z-index: 9; }
+.split-line-top { position: relative; }
+.split-line-top::before { content: ""; width: 100%; border-bottom: 1px solid rgb(232, 232, 232); position: absolute; left: 0px; top: 0px; transform: scaleY(0.5); transform-origin: 0px 0px 0px; z-index: 9; }
+.split-line-left::before { content: ""; height: 100%; border-left: 1px solid rgb(232, 232, 232); position: absolute; left: 0px; top: 0px; transform: scaleX(0.5); transform-origin: 0px 0px 0px; z-index: 9; }
+.split-line-right::after { content: ""; height: 100%; border-right: 1px solid rgb(232, 232, 232); position: absolute; right: 0px; top: 0px; transform: scaleX(0.5); transform-origin: 100% 0px 0px; z-index: 9; }
+.flex-box { display: flex; align-items: center; -moz-box-align: center; }
+.flex-1 { -moz-box-flex: 1; flex: 1 1 0%; }
+.imgbox img { display: block; width: 100%; }
+#header { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0px 0.5rem; height: 2.2rem; }
+#header .logo { height: 1.8rem; }
+#header .logo img { height: 100%; }
+#header .contact-btn { display: block; width: 1.4rem; height: 1.4rem; border-radius: 1.4rem; border: 1px solid rgb(220, 220, 220); margin-left: 0.6rem; }
+#header .contact-btn a { height: 1.4rem; }
+#header .contact-btn i { text-align: center; display: block; color: rgb(103, 103, 103); font-size: 0.7rem; }
+#footer { display: flex; padding: 0.5rem 0.7rem 2.2rem; font-size: 0.44rem; background: rgb(61, 120, 209) none repeat scroll 0% 0%; line-height: 0.9rem; color: rgb(255, 255, 255); }
+#footer .imgbox { width: 3.1rem; height: 3.1rem; }
+#footer .code-box { padding-bottom: 0.9rem; }
+#footer .copy-box { margin-left: 1.4rem; }
+.code-click { width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; opacity: 0; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; z-index: 100; pointer-events: none; transition: all 0.25s ease-out 0s; }
+.code-click img { position: absolute; top: 100%; left: 50%; transform: translate(-50%, 0px); width: 50%; display: block; transition: all 0.25s ease-out 0s; }
+#footer-nav { height: 2.2rem; position: fixed; bottom: 0px; left: 0px; width: 100%; overflow: hidden; z-index: 50; }
+#footer-nav ul { background: rgba(51, 51, 51, 0.85) none repeat scroll 0% 0%; position: absolute; top: 0px; left: 0px; width: 100%; height: 2.2rem; z-index: 10; }
+#footer-nav li { position: relative; width: 20%; }
+#footer-nav li::after { content: ""; height: 100%; border-right: 1px solid rgb(255, 255, 255); position: absolute; right: 0px; top: 0px; opacity: 0.08; transform: scaleX(0.5); transform-origin: 100% 0px 0px; z-index: 9; }
+#footer-nav li a { text-align: center; color: rgb(255, 255, 255); display: block; font-size: 0.4rem; }
+#footer-nav li a i { line-height: 1rem; font-size: 0.8rem; }
+.java-wrap { display: none; }
+/* ::::: http://m.seedweet.com/app/Tpl/new/wap/css/wenda.css ::::: */
+
+body { background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
+section { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.section-what { padding: 0.4rem 0px 1rem; }
+.main-title { text-align: center; font-size: 0.8rem; line-height: 1.56rem; color: rgb(68, 68, 68); }
+.main-title span { color: rgb(115, 152, 232); }
+.section-what p { padding: 0px 0.5rem 0.6rem; line-height: 0.72rem; font-size: 0.52rem; text-align: center; }
+.section-suitable .main-title { padding: 0.4rem 0px; }
+.suitable-list { position: relative; }
+.suitable-list::after { content: ""; height: 100%; border-left: 1px solid rgb(232, 232, 232); position: absolute; left: 50%; bottom: 0px; transform: translateX(-50%) scaleX(0.5); transform-origin: 50% 0px 0px; z-index: 9; }
+.suitable-list li { width: 50%; float: left; text-align: center; }
+.suitable-list li .suitable-tit { font-size: 0.56rem; line-height: 1rem; color: rgb(68, 68, 68); }
+.suitable-list li p { font-size: 0.42rem; line-height: 0.56rem; color: rgb(153, 153, 153); padding: 0px 0.4rem 0.56rem; height: 1.68rem; }
+.mid-consult { background: transparent url('../images/wenda/mid-consult.jpg') no-repeat scroll center center / cover ; height: 4.4rem; text-align: center; }
+.mid-consult p { color: rgb(255, 255, 255); line-height: 1.4rem; padding-top: 0.7rem; }
+.consult-btn { width: 6.4rem; line-height: 1.2rem; display: block; text-align: center; margin: 0px auto; }
+.mid-consult .consult-btn { background: rgb(255, 202, 51) none repeat scroll 0% 0%; color: rgb(68, 68, 68); }
+.section-advantage .main-title { padding: 0.6rem 0px; }
+.advantage-list { padding: 0px 0.5rem; }
+.advantage-list li { background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-bottom: 0.4rem; }
+.advantage-list li .advantage-hd { height: 2rem; }
+.advantage-list li .advantage-hd .imgbox { width: 2rem; height: 2rem; }
+.advantage-list li .advantage-hd p { font-size: 0.6rem; }
+.advantage-list li .advantage-hd .iconfont { display: block; width: 2rem; text-align: center; font-size: 0.7rem; }
+.advantage-list li .advantage-hd .hide { display: none; }
+.advantage-list li .advantage-info { display: none; padding: 0.8rem 0px; margin: 0px 0.4rem; }
+.advantage-list li .advantage-info p { position: relative; padding-left: 0.5rem; color: rgb(153, 153, 153); font-size: 0.52rem; line-height: 0.8rem; margin-bottom: 0.8rem; }
+.advantage-list li .advantage-info p::after { content: ""; width: 0.24rem; height: 0.24rem; border-radius: 0.24rem; background: rgb(255, 104, 104) none repeat scroll 0% 0%; position: absolute; top: 0.28rem; left: 0px; }
+.advantage-list li .advantage-info p:last-child { margin-bottom: 0px; }
+.section-why .main-title { padding: 0.5rem 0px; }
+.why-list { padding-top: 0.2rem; }
+.why-list li { width: 50%; float: left; height: 5.5rem; text-align: center; }
+@media screen and (min-width: 750px) {
+	.why-list li { width: 33.33%; }
+}
+.why-list li .imgbox { width: 2.7rem; margin: 0px auto; }
+.why-list li p { text-align: center; margin-top: 0.2rem; line-height: 0.64rem; font-size: 0.4rem; color: rgb(102, 102, 102); }
+.section-case .main-title { padding: 0.8rem 0px 0.3rem; }
+.section-case { text-align: center; }
+.section-case .case-list { display: inline-block; padding-bottom: 1.2rem; }
+.section-case .case-list li { width: 5.14rem; margin: 0px 0.5rem; float: left; }
+.wenda-footer { padding: 0.6rem 0px 0.9rem; }
+.wenda-footer p { line-height: 0.8rem; font-size: 0.48rem; color: rgb(22, 105, 104); text-align: center; }
+.wenda-footer .consult-btn { margin-top: 0.4rem; background: rgb(115, 152, 232) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }

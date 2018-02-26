@@ -1,0 +1,78 @@
+
+@CHARSET "UTF-8";
+
+	/*o2o社区服务*/
+.bg_0076ca{ background:#0076ca;}
+.o2o_h3_fff{ font-size:28px; color:#fff; line-height:40px; text-align:center; padding:15px 0;}
+.o2o_h2_fff{ font-size:34px; color:#fff; line-height:40px; text-align:center; padding:15px 0;}
+.o2o_p_fff{ line-height:30px; font-size:17px; color:#fff; text-align:center;}
+.w_percentage_100{ width:100%!important;}
+.blank75{	clear: both;height: 75px;overflow: hidden;display: block; }
+.blank60{	clear: both;height: 60px;overflow: hidden;display: block; }
+.blank55{	clear: both;height: 55px;overflow: hidden;display: block; }
+.blank38{	clear: both;height: 38px;overflow: hidden;display: block; }
+.blank26{	clear: both;height: 26px;overflow: hidden;display: block; }
+.bg_fff{ background:#fff;}
+.o2o_h3_5c5c5c{ font-size:28px; color:#5c5c5c; line-height:40px; text-align:center; padding:15px 0;}
+.o2o_p_5c5c5c{ line-height:30px; font-size:17px; color:#5c5c5c; text-align:center;}
+.tc{ text-align:center;} 
+.pt10{ padding-top:10px;}
+.w241{ width:241px;}
+.w223{ width:223px;}
+.w216{ width:216px;}
+.pr96{ padding-right:96px;}
+.pr106{ padding-right:106px;}
+.f17{ font-size:17px;}
+.f013{ font-size:13px;}
+.lh37{  line-height:37px;}
+.lh24{  line-height:24px;}
+.nav_banner {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  height: 290px;
+  background: url("../images/o2o_images/o2oserver_banner.png") no-repeat center 0 #f8f3f1;
+}
+
+
+a.consulting_href{
+	display: block;
+	  width: 139px;
+  height: 39px;
+	line-height: 39px;
+	color: #444;
+	border: 1px solid #ecebeb;
+	text-align: center;
+	margin: 0 auto;
+}
+ a.consulting_href:hover{
+background: #00b0ce;
+  border: 1px solid #00b0ce;
+  color: #fff;
+}
+
+.s-boxes{
+	position: relative;
+	width: 100%;
+}
+.s-boxes img{
+	z-index: 1;
+
+}
+.s-boxes a{
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 50%;
+}
+.s-boxes a.af1{
+	top: 0;
+	left: 0;
+	height: 100px;
+}
+.s-boxes a.af2{
+	top: 0;
+	right: 0;
+	height: 280px;
+}

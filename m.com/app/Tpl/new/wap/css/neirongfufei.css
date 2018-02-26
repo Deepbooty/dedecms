@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+.mt020{margin-top:.2rem;}
+.mt060{margin-top:.6rem;}
+.mt080{margin-top:.8rem;}
+
+
+.banner{
+    width: 100%;
+    height: 6.7rem;
+    background: url("../images/neirongfufei/banner.png") center center no-repeat;
+    background-size: cover;
+}
+.banner .banner-tit{
+    width: 100%;
+    padding-top: 1.4rem;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+.banner p{
+    display: block;
+    margin-top: .7rem;
+    font-size: .48rem;
+    line-height: .48rem;
+    text-align: center;
+    color: #333;
+}
+.banner a{
+    margin: 1.1rem auto 0;
+    display: block;
+    width: 4.6rem;
+    height: 1rem;
+    border: 2px solid #333;
+    border-radius: .625rem;
+    text-align: center;
+    line-height: 1.05rem;
+    font-size: .4rem;
+    color: #333;
+}
+.tit{
+    padding-top: 1.4rem;
+    width: 100%;
+    font-size: .72rem;
+    line-height: .72rem;
+    color: #333;
+    text-align: center;
+}
+.tit em{
+    font-weight: bold;
+}
+
+#function-banner{
+    position: relative;
+    background: #fff;
+}
+#function-banner .banner-list li{
+    position: relative;
+}
+.banner-list{
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+}
+.banner-nav{
+    position: absolute;
+    bottom: .6rem;
+    left: 50%;
+    height: .3rem;
+}
+.banner-nav li{
+    float: left;
+    margin-right: .4rem;
+    width: .28rem;
+    height: .28rem;
+    background: #333;
+    border-radius: .14rem;
+}
+.banner-nav li.on{
+    width: .88rem;
+    background: #fde700;
+}
+
+.swiper-slide .left-phone{
+    float: left;
+    margin-left: 6.5%;
+    width: 37%;
+    height: 12rem;
+}
+.swiper-slide .phone-1{
+    background: url("../images/neirongfufei/phone-1.png") 50% 50% no-repeat;
+    background-size: contain;
+}
+.swiper-slide .phone-2{
+    background: url("../images/neirongfufei/phone-2.png") 50% 50% no-repeat;
+    background-size: contain;
+}
+/*.swiper-slide .phone-3{*/
+    /*background: url("../images/neirongfufei/phone-3.png") 50% 50% no-repeat;*/
+    /*background-size: contain;*/
+/*}*/
+.swiper-slide .phone-4{
+    background: url("../images/neirongfufei/phone-4.png") 50% 50% no-repeat;
+    background-size: contain;
+}
+.swiper-slide .phone-5{
+    background: url("../images/neirongfufei/phone-5.png") 50% 50% no-repeat;
+    background-size: contain;
+}
+.swiper-slide .phone-6{
+    background: url("../images/neirongfufei/phone-6.png") 50% 50% no-repeat;
+    background-size: contain;
+}
+.swiper-slide .right-detail{
+    margin-left:6%;
+    width: 48%;
+    float: left;
+}
+.right-detail .sub-tit{
+    font-size: .52rem;
+    color:#333;
+    line-height: .52rem;
+    font-weight: bold;
+    text-align: left;
+}
+.right-detail .sub-con span{
+    display: block;
+    font-size: .42rem;
+    color: #666;
+    line-height: .42rem;
+}
+.right-detail .sub-con em{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    vertical-align: top;
+}
+.right-detail .btn{
+    display: block;
+    width: 90%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: .48rem;
+    text-align: center;
+    border-radius: .6rem;
+}
+.right-detail .sao-ewm{
+    background: #fde700;
+    color: #333;
+}
+.right-detail .sao-ewm .icon{
+    margin-right: .2rem;
+    font-size: .56rem;
+    color: #333;
+}
+.right-detail .more-link{
+    margin-top: .4rem;
+    background: #333;
+    color: #fff;
+}
+.right-detail .more-link .icon{
+    color: #fff;
+    margin-right: 3px;
+    font-size: .56rem;
+}
+.img-list{
+    margin-top: 1rem;
+    padding-right:10%;
+}
+.img-list .img-block{
+    float: left;
+    width: 2rem;
+}
+.img-list .img-block p{
+    display: block;
+    text-align: center;
+    line-height: 1rem;
+    color: #333;
+    font-size: .36rem;
+}
+.img-list .img-block .img{
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+}
+.img-list .img-block .img-1{ background: url("../images/neirongfufei/img-1.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-2{ background: url("../images/neirongfufei/img-2.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-3{ background: url("../images/neirongfufei/img-3.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-4{ background: url("../images/neirongfufei/img-4.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-5{ background: url("../images/neirongfufei/img-5.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-6{ background: url("../images/neirongfufei/img-6.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-7{ background: url("../images/neirongfufei/img-7.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-8{ background: url("../images/neirongfufei/img-8.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-9{ background: url("../images/neirongfufei/img-9.png") 0 0 no-repeat;background-size: 100%;}
+.img-list .img-block .img-10{ background: url("../images/neirongfufei/img-10.png") 0 0 no-repeat;background-size: 100%;}
+
+.m-earnings{
+    width: 100%;
+    height: 18.8rem;
+    background: #fbfbff;
+}
+.m-earnings .earnings-inner{
+    padding-top: 1.4rem;
+}
+.m-earnings .earnings-inner li{
+    margin-bottom: 1rem;
+}
+.earnings-inner .earnings-img{
+    margin-left: 7%;
+    float: left;
+    width: 17.6%;
+    height: 2rem;
+}
+.earnings-inner .earnings-img.play-1{
+    background: url("../images/neirongfufei/play-1.png") center center no-repeat;
+    background-size: contain;
+}
+.earnings-inner .earnings-img.play-2{
+    background: url("../images/neirongfufei/play-2.png") center center no-repeat;
+    background-size: contain;
+}
+.earnings-inner .earnings-img.play-3{
+    background: url("../images/neirongfufei/play-3.png") center center no-repeat;
+    background-size: contain;
+}
+.earnings-inner .earnings-img.play-4{
+    background: url("../images/neirongfufei/play-4.png") center center no-repeat;
+    background-size: contain;
+}
+.earnings-inner .earnings-img.play-5{
+    background: url("../images/neirongfufei/play-5.png") center center no-repeat;
+    background-size: contain;
+}
+.earnings-inner .earnings-detail{
+    float: left;
+    margin-left: 2.7%;
+    width: 72%;
+}
+.earnings-inner .earnings-detail span{
+    margin-top: .56rem;
+    display: block;
+    font-size: .44rem;
+    line-height: .44rem;
+    font-weight: bold;
+}
+.earnings-inner .earnings-detail p{
+    display: block;
+    margin-top: .3rem;
+    font-size: .44rem;
+    line-height: .44rem;
+    color: #666;
+}
+.earnings-inner .purple{color: #484c79;}
+.earnings-inner .orange{color: #f85f48;}
+.earnings-inner .green{color: #64ead1;}
+.earnings-inner .yellow{color: #fbba2f;}
+.earnings-inner .blue{color: #0d89e8;}
+
+.m-develop{
+    background: #fff;
+    height: 18.6rem;
+}
+.develop-list{
+    padding-top: 1.2rem;
+}
+.develop-list ul{
+    padding-left: 6%;
+}
+.develop-list li{
+    float: left;
+    width: 44%;
+    height: 6.52rem;
+    margin-right:6%;
+    margin-bottom: 6%;
+}
+
+.develop-list .img-1{ background: url("../images/neirongfufei/develop-1.png") center 100% no-repeat; background-size: contain;}
+.develop-list .img-2{ background: url("../images/neirongfufei/develop-2.png") center 100% no-repeat; background-size: contain;}
+.develop-list .img-3{ background: url("../images/neirongfufei/develop-3.png") center 0 no-repeat; background-size: contain;}
+.develop-list .img-4{ background: url("../images/neirongfufei/develop-4.png") center 0 no-repeat; background-size: contain;}
+
+.consult{
+    background: #fbfbff;
+    padding-top: 1.4rem;
+    height: 4rem;
+}
+.consult .bottom-tit{
+    width: 100%;
+
+    font-size: .76rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.consult a{
+    display: block;
+    margin: .6rem auto;
+    width: 42.7%;
+    height: 1.2rem;
+    background: #fde700;
+    line-height: 1.2rem;
+    border-radius: .6rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+

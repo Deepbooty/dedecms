@@ -1,0 +1,484 @@
+Uri: http://o2o.fanwe.com/
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/index.htm
+Content Type: text/html
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/favicon.ico
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/favicon.ico
+Content Type: image/x-icon
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/public.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/public.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/leaveword.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/leaveword.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/index1.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/index1.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/index.php?ctl=price
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/index-1.htm
+Content Type: text/html
+
+Uri: http://o2o.fanwe.com/index.php?ctl=article_cate
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/index-2.htm
+Content Type: text/html
+
+Uri: http://o2o.fanwe.com/progress
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/progress.htm
+Content Type: text/html
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.scroll.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.scroll.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.easing.min.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.easing.min.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.SuperSlide.2.1.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.SuperSlide.2.1.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.timer.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.timer.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/public.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/public.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/index1.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/index1.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/logo.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/logo.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-yhd5.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-yhd5.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd1.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd1.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd2.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd2.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd3.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd3.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd4.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-yhd4.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd1.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd1.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd2.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd2.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd3.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd3.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd4.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-yhd4.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd3.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd3.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd4.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd4.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd5.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mb-sjd5.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd1.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd1.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd2.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd2.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd3.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/pc-sjd3.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd3.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd3.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd4.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd4.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd5.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/wx-sjd5.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts3.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts3.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts4.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts4.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts5.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts5.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts6.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts6.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts12.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts12.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts8.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts8.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts9.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts9.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts10.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts10.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts13.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts13.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts14.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts14.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ts15.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ts15.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4-img1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4-img1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4-img2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4-img2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4-img3.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4-img3.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4-img4.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4-img4.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.eot
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.woff
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.woff
+Content Type: application/x-font-woff
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.ttf
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.svg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/iconfont/iconfont.svg
+Content Type: image/svg+xml
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/nav_bj.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/nav_bj.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/footadd.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/footadd.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/footline.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/footline.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ewm.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ewm.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/phone.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/phone.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/top.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/top.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/QQ1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/QQ1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/kfewm.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/kfewm.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/services_popbg.gif
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/services_popbg.gif
+Content Type: image/gif
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/close.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/close.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/o-r-zc.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/o-r-zc.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/tip.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/tip.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/circule.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/circule.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/circule-active.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/circule-active.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/circule-road.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/circule-road.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/banner.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/banner.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/st1-bj.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/st1-bj.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/st2-bj.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/st2-bj.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/circle.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/circle.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/circle2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/circle2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_1.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_1.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_3.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_3.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_1w.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_1w.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_2w.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_2w.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_3w.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_3w.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_1cur.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_1cur.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_2cur.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_2cur.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_3cur.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_3cur.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_1cur2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_1cur2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_2cur2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_2cur2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/s4_3cur2.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/s4_3cur2.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/gx.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/gx.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/prev.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/prev.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/next.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/next.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/computerbox.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/computerbox.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/mobilebox.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/mobilebox.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/ckys.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/ckys.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/sqzs.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/sqzs.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/anli.jpg
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/anli.jpg
+Content Type: image/jpeg
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/style.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/style.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/price.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/price.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/jquery.lavalamp.min.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/jquery.lavalamp.min.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/js/top.js
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/js/top.js
+Content Type: application/javascript
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/Y.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/Y.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/N.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/N.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/product_banner.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/product_banner.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/layout.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/layout.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fontSvg.css
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fontSvg.css
+Content Type: text/css
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/table_icon.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/table_icon.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/process_tt.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/process_tt.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/process_bg.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/process_bg.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/banner_price.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/banner_price.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/box_price_bj.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/box_price_bj.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/conli.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/conli.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/tit_cpsq.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/tit_cpsq.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/images/tit_cpfw.png
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/images/tit_cpfw.png
+Content Type: image/png
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.eot?-qbwmc
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.woff?-qbwmc
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.woff
+Content Type: application/x-font-woff
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.ttf?-qbwmc
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.svg?-qbwmc
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.svg
+Content Type: image/svg+xml
+
+Uri: http://o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon.eot
+File Name: c:/Downloaded Web Sites/o2o.fanwe.com/app/Tpl/fanwe/css/fonts/icomoon-1.eot
+Content Type: application/vnd.ms-fontobject
+

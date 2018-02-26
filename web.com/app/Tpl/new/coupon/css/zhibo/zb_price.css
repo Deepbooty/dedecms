@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body{
+    background: #eee;
+}
+.zb_price{
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.zb_price  table{
+    background: #fff;
+    width: 100%;
+    border-top: 1px #00a4d2 solid;
+    border-left: 1px #ced6d9 solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.zb_price table thead{
+    background: #3d78d1;
+}
+
+
+.zb_price table thead th{
+    height: 42px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px #00a4d2 solid;
+    border-right: 1px #ced6d9 solid;
+}
+
+.zb_price table tbody td{
+    padding: 10px 0;
+    font-size: 15px;
+    line-height:18px;
+    color:#666;
+    text-align: center;
+    border-bottom: 1px #ced6d9 solid;
+    border-right: 1px #ced6d9 solid;
+}
+
+.zb_price table tbody td em{
+    font-size:12px;
+    font-style: normal;
+    color: #9f9fb2;
+}

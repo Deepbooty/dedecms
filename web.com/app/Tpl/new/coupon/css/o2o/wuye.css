@@ -1,0 +1,431 @@
+.banner{
+	height: 530px;
+	background: url("../../images/o2o/wuye/banner.jpg") no-repeat center top;
+}
+.main-tit .special-tit{
+	margin-top: 8px;
+	display: inline-block;
+	padding:0 45px;
+	line-height: 30px;
+	height:30px;
+	background:#f3f3f3;
+	border-radius:15px;
+	color:#555;
+	font-size:16px;
+	margin-bottom:20px;
+}
+.main-tit .special-tit{
+	*display:inline;
+}
+.main-tit .special-tit span{
+	font-weight:bold;
+	color:#2c6fac;
+}
+.hot-mode{
+	height:705px;
+}
+.hot-mode-list{
+	width:1200px;
+	padding-top: 20px;
+	margin:0 auto;
+}
+.hot-mode-list li{
+	width:352px;
+	height:346px;
+	float: left;
+	border:1px solid #e1e1e1;
+	border-bottom-width:2px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-1{
+	border-bottom-color:#47a0f3;
+}
+.hot-mode-list .hot-item-2{
+	border-bottom-color:#35dc74;
+	margin: 0 69px;
+}
+.hot-mode-list .hot-item-3{
+	border-bottom-color:#ff9b4a;
+}
+.hot-mode-list .hot-item-img{
+	padding-top: 50px;
+	height:104px;
+	overflow: hidden;
+}
+.hot-mode-list .hot-item-img img{
+	height:100%;
+	display: block;
+	margin: 0 auto;
+}
+.hot-mode-list .hot-item-tit{
+	margin-top: 30px;
+	font-weight:bold;
+	color:#262626;
+	line-height: 60px;
+	font-size:19px;
+}
+.hot-mode-list .hot-item-tip{
+	color:#7e7e7e;
+	line-height: 24px;
+	font-size:15px;
+}
+.hot-mode-list .hot-info{
+	width:354px;
+	height:348px;
+	top: 346px;
+	left: -1px;
+	position: absolute;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.hot-mode-list li:hover .hot-info{
+	top: -1px;
+}
+.hot-mode-list .hot-info td{
+	height:300px;
+	color:#fff;
+	padding:0 40px;
+	text-align:left;
+	font-size:16px;
+	line-height: 24px;
+}
+.hot-mode-list .hot-info .hot-btn{
+	width:140px;
+	line-height: 28px;
+	display: block;
+	margin: 0 auto;
+	border:2px solid #fff;
+	color:#fff;
+}
+.hot-mode-list .hot-item-1 .hot-info{
+	background:#47a0f3;
+}
+.hot-mode-list .hot-item-2 .hot-info{
+	background:#35dc74;
+}
+.hot-mode-list .hot-item-3 .hot-info{
+	background:#ff9b4a;
+}
+/* 轻松 */
+.relax{
+	background:#f5f5f5;
+	height:840px;
+}
+.relax-list{
+	width:1210px;
+	margin:20px auto 0;
+}
+.relax-list li{
+	width:232px;
+	background:#fff;
+	height:210px;
+	padding-top: 50px;
+	float: left;
+	text-align: center;
+	margin: 0 5px 10px;
+}
+.relax-list li:hover{
+	box-shadow:0 0 10px rgba(0, 0, 0, .2);
+}
+.relax-list li .relax-tit{
+	line-height: 106px;
+	font-size:18px;
+	color:#262626;
+}
+.relax-list li .relax-ico{
+	background-image:url("../../images/o2o/wuye/relax.png");
+	background-repeat:no-repeat;
+	height:104px;
+}
+.relax-ico-2{
+	background-position:-232px 0;
+}
+.relax-ico-3{
+	background-position:-464px 0;
+}
+.relax-ico-4{
+	background-position:-696px 0;
+}
+.relax-ico-5{
+	background-position:-928px 0;
+}
+.relax-ico-6{
+	background-position:-1160px 0;
+}
+.relax-ico-7{
+	background-position:-1392px 0;
+}
+.relax-ico-8{
+	background-position:-1624px 0;
+}
+.relax-ico-9{
+	background-position:-1856px 0;
+}
+.relax-ico-10{
+	background-position:-2088px 0;
+}
+.gaotou{
+	height: 616px;
+}
+.gaotou-list{
+	width:1215px;
+	padding-left: 15px;
+	margin: 50px auto 0;
+}
+.gaotou-list li{
+	width:228px;
+	float: left;
+	height:220px;
+	padding-top: 44px;
+	border-radius:3px;
+	margin-right: 15px;
+	text-align: center;
+}
+.gaotou-list .gaotou-item-1{
+	background:#2eb0f5;
+}
+.gaotou-list .gaotou-item-2{
+	background:#fdbc26;
+}
+.gaotou-list .gaotou-item-3{
+	background:#22e6bf;
+}
+.gaotou-list .gaotou-item-4{
+	background:#2eb0f5;
+}
+.gaotou-list .gaotou-item-5{
+	background:#ff7b7b;
+}
+.gaotou-list li .gaotou-ico{
+	background-image:url("../../images/o2o/wuye/gaotou.png");
+	background-repeat:no-repeat;
+	height:100px;
+}
+.gaotou-list .gaotou-item-2 .gaotou-ico{
+	background-position:-228px 0;
+}
+.gaotou-list .gaotou-item-3 .gaotou-ico{
+	background-position:-456px 0;
+}
+.gaotou-list .gaotou-item-4 .gaotou-ico{
+	background-position:-684px 0;
+}
+.gaotou-list .gaotou-item-5 .gaotou-ico{
+	background-position:-912px 0;
+}
+.gaotou-list li:hover .gaotou-ico{
+	-webkit-animation: icon-bounce .5s alternate;
+	   -moz-animation: icon-bounce .5s alternate;
+	    -ms-animation: icon-bounce .5s alternate;
+	     -o-animation: icon-bounce .5s alternate;
+	        animation: icon-bounce .5s alternate;
+}
+.gaotou-list li .gaotou-tit{
+	line-height: 78px;
+	font-size:22px;
+	color:#fff;
+}
+/* 服务流程 */
+.service{
+	background:#f6f6f6;
+	height:618px;
+}
+.service .service-info{
+	height:403px;
+	background:url("../../images/o2o/wuye/service-info.jpg") no-repeat center top;
+}
+/* 应用 */
+.apply{
+	height:890px;
+	border-bottom:1px solid #ebebeb;
+}
+.apply .apply-tab{
+	width:1200px;
+	border:1px solid #c4cdd7;
+	box-shadow:0 5px 5px rgba(0, 0, 0, .05);
+	line-height: 54px;
+	height:54px;
+	margin: 0 auto;
+	border-radius:27px;
+	overflow: hidden;
+}
+.apply-tab .apply-tab-item{
+	line-height: 54px;
+	height:54px;
+	border-right:1px solid #c4cdd7;
+	width:239px;
+	float: left;
+	font-size:18px;
+	color:#7e7e7e;
+	text-align: center;
+	cursor: pointer;
+}
+.apply-tab .br0{
+	border-right:0;
+}
+.apply-tab .active{
+	background:#2eb0f5;
+	color:#fff;
+}
+.apply-info{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 82px 0;
+}
+.apply-info-item{
+	display: none;
+}
+.apply-info-item>img{
+	margin-top:28px;
+	width: 707px;
+	float: left;
+}
+.apply-info-item .apply-detail{
+	float: left;
+	margin-left: 85px;
+}
+.apply-info-item .apply-tit{
+	line-height: 40px;
+	font-size:30px;
+	color:#363636;
+}
+.apply-info-item .apply-tip{
+	line-height: 25px;
+	font-size:15px;
+	color:#2e75c2;
+}
+.apply-list{
+	margin-top: 24px;
+}
+.apply-list li{
+	margin-bottom: 20px;
+}
+.apply-list .apply-ico{
+	width:44px;
+	float: left;
+}
+.apply-list p{
+	float: left;
+	line-height: 24px;
+	color:#666;
+	margin-top: 8px;
+	font-size:15px;
+}
+.apply-info .active{
+	display: block;
+}
+.rich{
+	height: 900px;
+	background: #fff;
+}
+.rich-list{
+	width: 1200px;
+	margin: 0 auto;
+}
+.rich-list li{
+	width: 299px;
+	height: 328px;
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	position: relative;
+	z-index: 1;
+}
+.rich-list li:hover{
+	box-shadow:0 0 5px rgba(0, 0, 0, .5);
+	z-index: 2;
+}
+.rich-list li a{
+	display: block;
+	
+	height: 328px;
+	padding-top: 10px;
+}
+.rich-list .br0{
+	border-right: 0;
+}
+.rich-list .bb0{
+	border-bottom: 0;
+}
+.rich-list .rich-ico{
+	background-image: url("../../images/o2o/wuye/rich.jpg");
+	background-repeat:no-repeat;
+	height: 154px;
+}
+.rich-list .rich-ico-2{
+	background-position:-300px 0;
+}
+.rich-list .rich-ico-3{
+	background-position:-600px 0;
+}
+.rich-list .rich-ico-4{
+	background-position:-900px 0;
+}
+.rich-list .rich-ico-5{
+	background-position:-1200px 0;
+}
+.rich-list .rich-ico-6{
+	background-position:-1500px 0;
+}
+.rich-list .rich-ico-7{
+	background-position:-1800px 0;
+}
+.rich-list .rich-ico-8{
+	background-position:-2100px 0;
+}
+.rich-list .rich-tit{
+	line-height: 44px;
+	font-weight:bold;
+	font-size:19px;
+	color:#262626;
+}
+.rich-list p{
+	font-size:14px;
+	line-height: 24px;
+	color:#7e7e7e;
+}
+/* choice */
+.choice-tab-tit{
+	color:#0099ff;
+}
+.choice-tab ul .active{
+	color:#0099ff;
+}
+.choice-info .choice-img{
+	background-color: #2eb0f5;
+}
+/* footer */
+.o2o-footer{
+	background:#4a8cdd url("../../images/o2o/public/o2o-footer.png") no-repeat center top;
+}
+.o2o-footer .o2o-code .code-tip{
+	background:#ffe14f;
+	color:#1583b5;
+}
+.o2o-footer-list li{
+	width:240px;
+}
+.o2o-footer-list .weixin{
+	background:url("../../images/o2o/wuye/weixin.png") no-repeat;
+}
+.o2o-footer-list .ios{
+	background:url("../../images/o2o/wuye/ios.png") no-repeat;
+}
+.o2o-footer-list .android{
+	background:url("../../images/o2o/wuye/android.png") no-repeat;
+}
+.o2o-footer-list .pc{
+	background:url("../../images/o2o/wuye/pc.png") no-repeat;
+}
+.o2o-footer-btn{
+	width:1134px;
+	border:3px solid #bed6f3;
+	background:#5c98e0;
+}
